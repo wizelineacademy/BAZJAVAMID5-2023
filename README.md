@@ -35,7 +35,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 **Sesiones en Vivo** 
 - Estas serán clases presenciales que impartirán ingenieros de Wizeline, las sesiones tienen una duración de 2 horas.
-- Lunes y martes`: 9am en oficinas de Wizeline - [Liga Zoom](https://wizeline.zoom.us/j/84778203669?pwd=Q2RPd0wvVHNWYitDaHVNcm9EaU8vZz09) en caso de no poderse presentar.
+- Lunes y martes: 9am en oficinas de Wizeline - [Liga Zoom](https://wizeline.zoom.us/j/84778203669?pwd=Q2RPd0wvVHNWYitDaHVNcm9EaU8vZz09) en caso de no poderse presentar.
 - Miércoles, Jueves y Viernes: 9am en línea por [Zoom](https://wizeline.zoom.us/j/83352402800)
 
 - En las sesiones en línea, es **obligatorio** tener la cámara prendida.
