@@ -22,11 +22,11 @@
 # I. Bienvenida
 Bienvenido a tu capacitación de **Microservicios en Java/Spring Boot con JUnit.**
 
-[Liga Acceso Telegram grupal](https://t.me/+qoRIX6OWI_xjYWIx)
+[Liga Acceso Telegram grupal](https://t.me/+9Oqz7ySMlZI1Mzdh)
 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
-![Calendario](https://github.com/wizelineacademy/BAZJAVA2-2022/blob/main/2Java.png)
+<img width="482" alt="Calendario Java Bloque 4" src="https://user-images.githubusercontent.com/94467952/226647982-eb0debfd-3401-42db-94c8-5de02b2eaf08.png">
 
 En este calendario veras las sesiones que estan agendadas durante este curso.
 
@@ -36,7 +36,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 **Sesiones en Vivo** 
 - Estas serán clases presenciales que impartirán ingenieros de Wizeline, las sesiones tienen una duración de 2 horas.
 - Lunes y Miércoles`: 9am en oficinas de Wizeline - [Liga Zoom](https://wizeline.zoom.us/j/84778203669?pwd=Q2RPd0wvVHNWYitDaHVNcm9EaU8vZz09) en caso de no poderse presentar.
-- Martes, Jueves y Viernes: 9am en línea por [Zoom](https://wizeline.zoom.us/j/84778203669?pwd=Q2RPd0wvVHNWYitDaHVNcm9EaU8vZz09)
+- Miércoles, Jueves y Viernes: 9am en línea por [Zoom](https://wizeline.zoom.us/j/83352402800)
 
 - En las sesiones en línea, es **obligatorio** tener la cámara prendida.
 - Debes asisitir a mínimo 10 sesiones presenciales para tener derecho a presentar tu Proyecto Final
@@ -132,7 +132,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/seCaheZXytZ
 
 | Mentor               | Mentee                          |  Liga para agendar mentoria                |
 |----------------------|---------------------------------|--------------------------------------------|
-| `Marco Robles`       | - Abraham Gutierrez Lara   <br/> - Agustin Zuloaga Refugio <br/> - Cristian E. Romero Lopez.       | [Liga](https://calendly.com/marco-robles-wize) |
+| `Marco Robles`       | - EDUARDO HERNANDEZ LOPEZ   <br/> - Agustin Zuloaga Refugio <br/> - Cristian E. Romero Lopez.       | [Liga](https://calendly.com/marco-robles-wize) |
 | `Neftali Ramos`      | - Abraham Moran Mendoza  <br/> - David de Jesus Ramírez Arellano | [Liga](https://calendly.com/neftali-ramos/mentoria-baz)
 | `Paco Ramirez`       | - Erick Gayosso Guzman <br/> - Esteban Alexander Rojas Perez <br/> - Estefania Ponce de Leon Rosas | [Liga](https://calendly.com/paco-mojica/mentoria-baz)
 | `Diego Osorno`       | - Gustavo Solar Gaona <br/> - Irvin Oswaldo Cabrera Ibañez | [Liga](https://calendly.com/diego-osorno-wizeline/baz-java-grupo-2?month=2022-10) |
