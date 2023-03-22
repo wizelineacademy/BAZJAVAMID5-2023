@@ -26,7 +26,7 @@ Bienvenido a tu capacitación de **Microservicios en Java/Spring Boot con JUnit.
 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
-<img width="482" alt="Calendario Java Bloque 4" src="https://user-images.githubusercontent.com/94467952/226647982-eb0debfd-3401-42db-94c8-5de02b2eaf08.png">
+<<img width="477" alt="Screen Shot 2023-03-22 at 10 24 54" src="https://user-images.githubusercontent.com/114529977/226972051-d602c2f9-eb64-4a30-8d54-292906677554.png">>
 
 En este calendario veras las sesiones que estan agendadas durante este curso.
 
