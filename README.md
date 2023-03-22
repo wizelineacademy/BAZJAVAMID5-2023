@@ -109,7 +109,27 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    2. [Pruebas de Integración](Semana%206/PruebasIntegracion/README.md)
    3. [Cobertura](Semana%206/Cobertura/README.md)
 
-# IV. 📺 Grabaciones sesiones y Presentaciones
+# V. Agenda tu mentoria 📆
+Cada alumno/mentee debera contar con al menos 1 mentoria agendada por cada `Semana` del curso, para evaluar dudas de los temas de la semana o bien para validar los entregables correspondientes a cada semana.
+
+Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrPDypAF8) al final de tu mentoría.
+
+### Mentores Asignados
+
+| Mentor               | Mentee                          |  Liga para agendar mentoria                |
+|----------------------|---------------------------------|--------------------------------------------|
+| `Neftali Ramos Jimenez`       | - EDUARDO HERNANDEZ LOPEZ   <br/> - Agustin Zuloaga Refugio <br/> - Cristian E. Romero Lopez.       | [Liga](https://calendly.com/marco-robles-wize) |
+| `Paco Ramírez Mojica`      | - Abraham Moran Mendoza  <br/> - David de Jesus Ramírez Arellano | [Liga](https://calendly.com/neftali-ramos/mentoria-baz)
+| `Pao Pileño Flores`       | - Erick Gayosso Guzman <br/> - Esteban Alexander Rojas Perez <br/> - Estefania Ponce de Leon Rosas | [Liga](https://calendly.com/paco-mojica/mentoria-baz)
+| `Oscar Balandrán Valtierra`       | - Gustavo Solar Gaona <br/> - Irvin Oswaldo Cabrera Ibañez | [Liga](https://calendly.com/diego-osorno-wizeline/baz-java-grupo-2?month=2022-10) |
+| `Ricardo Garza Verastegui`      | - Israel Arroyo Alvarez <br/> - Ivan Matias Ordoñez Lozada <br/>  | [Liga](https://calendly.com/mario-cruz-wizeline) |
+| `Walter Franco`      |  - Jose Manuel Mendoza Garcia <br/> - Mateo Javier Aguilar Carrillo <br/> - Neri Sanchez Lozano  | [Liga](https://calendly.com/ricardo-garza/30min)
+| `Mitzi Torales Castillo`  | - Salvador Medrano Romero <br/> - Alejandro Ramirez Flores <br/> - Cristian Elias Jimenez Perez | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
+| `Gerardo Lucas Cruz`    | - David Hinostroza Loera <br/> - Eduardo Antonio Cedillo Segovia <br/> - Jonathan Alan Reyes Nava | [Liga](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
+| `Gerardo Ruiz`         | - Luis Eduardo Hernandez Garcia <br/> - Mizraim Martinez Benitez <br/> - Oswaldo Santiago Sanjuan | [Liga](https://calendly.com/jose-vazquez-wizeline) |
+
+
+# VI. 📺 Grabaciones sesiones y Presentaciones
 
 En [esta liga](Grabaciones%20y%20Presentaciones.md) encontrarás todas las grabaciones y presentaciones del curso.
 
@@ -122,8 +142,6 @@ Para aprobar el curso tendrás que desarrollar un proyecto final en el cual refo
 [Aquí](https://github.com/wizelineacademy/BAZJAVA4-2023/blob/main/Proyecto%20Final%20Capstone%20Project.md) encontrarás las instrucciones para completar tu proyecto final.
 
 Para la revisión de tu Capstone Project se te asignará un mentor, el cual te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. Deberás enviar la URL de tus `Pull Request` a través del siguiente [formulario](https://forms.gle/HpNZSp1KroPWaQodA)
-
-# VI. Agenda tu mentoría
 
 
 # VII. Contacto Wizeline DSA
