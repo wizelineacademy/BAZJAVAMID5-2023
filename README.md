@@ -119,7 +119,7 @@ Para aprobar el curso tendrás que desarrollar un proyecto final en el cual refo
 - Para poder presentar tu proyecto final, debes contar con un mínimo de **6 mentorías on-demand**
 - Se tomará en cuenta tu participación en sesiones presenciales y virtuales. 
 
-[Aquí](Proyecto Final Capstone Project.md) encontrarás las instrucciones para completar tu proyecto final.
+[Aquí](https://github.com/wizelineacademy/BAZJAVA4-2023/blob/main/Proyecto%20Final%20Capstone%20Project.md) encontrarás las instrucciones para completar tu proyecto final.
 
 Para la revisión de tu Capstone Project se te asignará un mentor, el cual te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1.
 
