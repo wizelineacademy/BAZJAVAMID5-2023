@@ -15,8 +15,7 @@
 - [IV 📺 Grabaciones sesiones y Presentaciones](#-grabaciones-sesiones-y-presentaciones)
 - [V. Proyecto Final Capstone Project](#iv-proyecto-final-capstone-project)
 - [VI. Agenda tu mentoria 📆](#v-agenda-tu-mentoria-)
-- [VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL Asignado por Líder de Gremio](#vi-proyecto-baz-superapp--banca-digital-asignado-por-l%C3%ADder-de-gremio)
-- [VII. Contacto Wizeline Academy](#vii-contacto-wizeline-academy)
+- [VII. Contacto Wizeline DSA](#vii-contacto-wizeline-academy)
 <!---------------------->
 
 # I. Bienvenida
