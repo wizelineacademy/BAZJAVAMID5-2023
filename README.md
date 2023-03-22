@@ -12,9 +12,9 @@
         - [Semana 4 - Spring Boot](#semana-4---spring-boot)
         - [Semana 5 - Spring Boot](#semana-5---spring-boot)
         - [Semana 6 - JUnit](#semana-6---junit)
-    - [📺 Grabaciones sesiones y Presentaciones](#-grabaciones-sesiones-y-presentaciones)
-- [IV. Proyecto Final Capstone Project](#iv-proyecto-final-capstone-project)
-- [V. Agenda tu mentoria 📆](#v-agenda-tu-mentoria-)
+- [IV 📺 Grabaciones sesiones y Presentaciones](#-grabaciones-sesiones-y-presentaciones)
+- [V. Proyecto Final Capstone Project](#iv-proyecto-final-capstone-project)
+- [VI. Agenda tu mentoria 📆](#v-agenda-tu-mentoria-)
 - [VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL Asignado por Líder de Gremio](#vi-proyecto-baz-superapp--banca-digital-asignado-por-l%C3%ADder-de-gremio)
 - [VII. Contacto Wizeline Academy](#vii-contacto-wizeline-academy)
 <!---------------------->
@@ -109,11 +109,11 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    2. [Pruebas de Integración](Semana%206/PruebasIntegracion/README.md)
    3. [Cobertura](Semana%206/Cobertura/README.md)
 
-## 📺 Grabaciones sesiones y Presentaciones
+# IV. 📺 Grabaciones sesiones y Presentaciones
 
 En [esta liga](Grabaciones%20y%20Presentaciones.md) encontrarás todas las grabaciones y presentaciones del curso.
 
-# IV. Proyecto Final (Capstone Project)
+# V. Proyecto Final (Capstone Project)
 **Objetivo**
 Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzaras y aplicaras los conocimientos que vas adquiriendo.
 - Para poder presentar tu proyecto final, debes contar con un mínimo de **6 mentorías on-demand**
@@ -123,12 +123,8 @@ Para aprobar el curso tendrás que desarrollar un proyecto final en el cual refo
 
 Para la revisión de tu Capstone Project se te asignará un mentor, el cual te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. Deberás enviar la URL de tus `Pull Request` a través del siguiente [formulario](https://forms.gle/HpNZSp1KroPWaQodA)
 
-# V. Mentores Asignados
+# VI. Agenda tu mentoría
 
-# VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
-
-- **BAZ Superapp**: 
-- **BANCA DIGITAL**: Siguen con sus actividades habituales asignadas por su líder de gremio
 
 # VII. Contacto Wizeline DSA
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline DSA
