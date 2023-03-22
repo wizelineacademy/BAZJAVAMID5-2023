@@ -118,15 +118,15 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrP
 
 | Mentor               | Mentee                          |  Liga para agendar mentoria                |
 |----------------------|---------------------------------|--------------------------------------------|
-| `Neftali Ramos Jimenez`       | - EDUARDO HERNANDEZ LOPEZ   <br/> - Agustin Zuloaga Refugio <br/> - Cristian E. Romero Lopez.       | [Liga](https://calendly.com/marco-robles-wize) |
-| `Paco Ramírez Mojica`      | - Abraham Moran Mendoza  <br/> - David de Jesus Ramírez Arellano | [Liga](https://calendly.com/neftali-ramos/mentoria-baz)
-| `Pao Pileño Flores`       | - Erick Gayosso Guzman <br/> - Esteban Alexander Rojas Perez <br/> - Estefania Ponce de Leon Rosas | [Liga](https://calendly.com/paco-mojica/mentoria-baz)
-| `Oscar Balandrán Valtierra`       | - Gustavo Solar Gaona <br/> - Irvin Oswaldo Cabrera Ibañez | [Liga](https://calendly.com/diego-osorno-wizeline/baz-java-grupo-2?month=2022-10) |
-| `Ricardo Garza Verastegui`      | - Israel Arroyo Alvarez <br/> - Ivan Matias Ordoñez Lozada <br/>  | [Liga](https://calendly.com/mario-cruz-wizeline) |
-| `Walter Franco`      |  - Jose Manuel Mendoza Garcia <br/> - Mateo Javier Aguilar Carrillo <br/> - Neri Sanchez Lozano  | [Liga](https://calendly.com/ricardo-garza/30min)
-| `Mitzi Torales Castillo`  | - Salvador Medrano Romero <br/> - Alejandro Ramirez Flores <br/> - Cristian Elias Jimenez Perez | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
-| `Gerardo Lucas Cruz`    | - David Hinostroza Loera <br/> - Eduardo Antonio Cedillo Segovia <br/> - Jonathan Alan Reyes Nava | [Liga](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
-| `Gerardo Ruiz`         | - Luis Eduardo Hernandez Garcia <br/> - Mizraim Martinez Benitez <br/> - Oswaldo Santiago Sanjuan | [Liga](https://calendly.com/jose-vazquez-wizeline) |
+| `Neftali Ramos Jimenez`       | - EDUARDO HERNANDEZ LOPEZ   <br/> - OMAR ALEJANDRO ALANIS VELAZQUEZ | [Liga](https://calendly.com/neftali-ramos/mentoria-baz) |
+| `Paco Ramírez Mojica`      | - HERIBERTO PEREZ PALMA  <br/> - FRANCISCO FEREGRINO CARRADA  <br> ERNESTO SANDOVAL BECERRA | [Liga](https://calendly.com/paco-mojica/mentoria-baz)
+| `Pao Pileño Flores`       | - RAFAEL PEREZ DIAZ <br/> - MARCO ANTONIO DIAZ BAUTISTA <br/> - ALAN CRISTIAN CRUZ PEÑA | [Liga](https://calendly.com/paola-pileno/baz-mentoria-1-1)
+| `Oscar Balandrán Valtierra`       | - RONALDO SANTIAGO VALDEZ <br/> -  JAVIER JASSAEL BUSTOS ALFARO <br>  -  MIGUEL ANGEL ESCAMILLA MIRANDA | [Liga](https://calendly.com/oscar-balandran/baz-mentoria-1-1) |
+| `Ricardo Garza Verastegui`      | -  EFRAIN GONZALEZ PEREZ <br/> - CARLOS IVAN MORALES PEREA <br/>  - JOSE MANUEL PELENCO RAMIREZ | [Liga](https://calendly.com/ricardo-garza/mentoria-baz) |
+| `Walter Franco`      |  - ALEXIS ZUGARAZO BERNAL <br/> - JONATAN CRISTIAN FLORES SANCHEZ <br/> - HUGO ENRIQUE AMARO OLGUIN  | [Liga](https://calendly.com/walter-franco-24)
+| `Mitzi Torales Castillo`  | - MARGARITO MIGUEL GONZALEZ CLARA <br/> - JOSE LUIS SOTO GARCIA <br/> - CRISTIAN EDUARDO ORTEGA VELAZQUEZ | [Liga](https://calendly.com/mitzi-torales/mentoria-baz)
+| `Gerardo Lucas Cruz`    | - VICTOR ALFONSO DE LA CRUZ ALONSO <br/> - YAZMIN IVONNE ORTIZ TREJO <br/> - RENE VARGAS CRUZ | [Liga](https://calendly.com/gerardo-lucas/mentoria-baz)
+| `Gerardo Ruiz`         | - IVAN MARTINEZ ZARATE <br/> - EDUARDO ALARCON MARTINEZ <br/> | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) |
 
 
 # VI. 📺 Grabaciones sesiones y Presentaciones
