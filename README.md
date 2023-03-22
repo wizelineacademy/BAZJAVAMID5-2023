@@ -121,14 +121,15 @@ Para aprobar el curso tendrás que desarrollar un proyecto final en el cual refo
 
 [Aquí](https://github.com/wizelineacademy/BAZJAVA4-2023/blob/main/Proyecto%20Final%20Capstone%20Project.md) encontrarás las instrucciones para completar tu proyecto final.
 
-Para la revisión de tu Capstone Project se te asignará un mentor, el cual te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. Es importante que registres tus entregables en este [formulario](https://forms.gle/HpNZSp1KroPWaQodA)
+Para la revisión de tu Capstone Project se te asignará un mentor, el cual te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. Deberás enviar la URL de tus `Pull Request` a través del siguiente [formulario](https://forms.gle/HpNZSp1KroPWaQodA)
 
-# VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
+
+# V. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
 
 - **BAZ Superapp**: 
 - **BANCA DIGITAL**: Siguen con sus actividades habituales asignadas por su líder de gremio
 
-# VII. Contacto Wizeline DSA
+# VI. Contacto Wizeline DSA
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline DSA
 
 :email: Email: [baz-dsa@wizeline.com](baz-dsa@wizeline.com)
