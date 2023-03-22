@@ -25,8 +25,7 @@ Bienvenido a tu capacitación de **Microservicios en Java/Spring Boot con JUnit.
 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
-<img width="478" alt="Screen Shot 2023-03-22 at 12 17 06" src="https://user-images.githubusercontent.com/114529977/227000132-9769e7b4-116b-4f8a-9eda-eb783bd09af0.png">
-
+<img width="478" alt="Screen Shot 2023-03-22 at 12 17 06" src="https://user-images.githubusercontent.com/94467952/227058804-2580a5a4-bd24-473c-bf3f-05ef0115401e.png">
 
 En este calendario veras las sesiones que estan agendadas durante este curso.
 
