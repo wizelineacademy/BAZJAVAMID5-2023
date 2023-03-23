@@ -1,7 +1,3 @@
-# :tv: Video y Presentacion
-- [TBD]
-- [TBD]
-- [TBD]
 # Spring Batch
 # :hammer_and_wrench:  Requisitos
 - Java 11
