@@ -8,7 +8,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabación Miércoles 21 Mar]()
 - [Jueves 23 Mar - Microservicios](https://drive.google.com/file/d/1H4VvWE_yJ6G4gQ1lh1j44R46_rIEsSDS/view?usp=sharing)
 - 📺 [Grabación Jueves 23 Mar]()
-- [Viernes 24 Mar - RestAPIs](https://drive.google.com/file/d/1uf91CQfwRzq2b-T6JcxfHXwVArJDMWpC/view?usp=sharing)
+- [Viernes 24 Mar - RestAPIs](https://drive.google.com/file/d/1zDBnIE5iyKlZQosXkGbttQmeNbFjC6X_/view?usp=sharing)
 - 📺 [Grabación Viernes 24 Mar]()
 
 # Semana 2
