@@ -3,11 +3,11 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 
 # Semana 1
 - [Martes 21 Mar - GIT](https://drive.google.com/file/d/13H7TFdYz3zvpmYV-SXbPcrvKlEEUr9Eh/view?usp=sharing)
-- 📺 [Grabación Martes 21 Mar]()
+- 📺 [Grabación Martes 21 Mar](https://drive.google.com/file/d/1a49C6vzjvHPSCtCXV8LobabsgXaD5twP/view?usp=sharing)
 - [Miércoles 22 Mar - Microservicios](https://drive.google.com/file/d/1H4VvWE_yJ6G4gQ1lh1j44R46_rIEsSDS/view?usp=sharing)
-- 📺 [Grabación Miércoles 21 Mar]()
+- 📺 [Grabación Miércoles 21 Mar](https://drive.google.com/file/d/1QPKv3OWmEhPozocJcJsUDih7Q3-zRs2T/view?usp=sharing)
 - [Jueves 23 Mar - Microservicios](https://drive.google.com/file/d/1H4VvWE_yJ6G4gQ1lh1j44R46_rIEsSDS/view?usp=sharing)
-- 📺 [Grabación Jueves 23 Mar]()
+- 📺 [Grabación Jueves 23 Mar](https://drive.google.com/file/d/16nhlL-jDpzpq_rkzQfvdjRl5O1hfx9IZ/view?usp=sharing)
 - [Viernes 24 Mar - RestAPIs](https://drive.google.com/file/d/1zDBnIE5iyKlZQosXkGbttQmeNbFjC6X_/view?usp=sharing)
 - 📺 [Grabación Viernes 24 Mar]()
 
