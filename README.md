@@ -60,13 +60,13 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 ## :bookmark_tabs: Sesiones
 
 ### Semana 1 - Fundamentos
-   1. [Git](Semana%201/GIT/README.md) 
+   1. [Git](Semana%201/Git/README.md) 
    2. [Microservicios](Semana%201/Microservicios/README.md)
    3. [RestAPIs](Semana%201/RestAPIs/README.md)
    4. [Serverless](Semana%201/Serverless/README.md)
 
 ### Semana 2 - Fundamentos
-   1. [Kafka](Semana%202/Kafka/README.md)
+   1. [Kafka](Semana%202/Kafka)
    2. [MongoDB](Semana%202/MongoDB/README.md)
 
 ### Semana 3 - Java
@@ -82,7 +82,7 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    10. [Genericos](Semana%203/Genericos/README.md)
    11. [Programación Funcional](Semana%203/Funcional/README.md)
    12. [Cifrado Síncrono y Asíncrono](Semana%203/Cifrado/README.md)
-   13. [Manejo SSL y Certificados](Semana%203/SSL/README.md)
+   13. Manejo SSL y Certificados
 
 ### Semana 4 - Spring Boot
    1. [Configuracion Inicial](Semana%204/Configuracion/README.md)
@@ -95,7 +95,7 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 ### Semana 5 - Spring Boot
    1. [Spring Batch](Semana%205/Batch/README.md)
    2. [Integraciones](Semana%205/Integraciones/README.md)
-   3. [Patrones de Diseño](Semana%205/Patrones/README.md)
+   3. Patrones de Diseño
    
       3.1 [Creacion](Semana%205/Patrones/CreationalPatterns/README.md)
       
