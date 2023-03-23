@@ -1,0 +1,7 @@
+consumers:
+  accounts: '/api/getAccounts'
+  accountsGroupByType: '/api/getAccountsGroupByType'
+  enpointLogin: "/api/login"
+  createuser: '/api/createUser'
+  createusers: '/api/createUsers'
+  userAccount: '/api/getUserAccount'
