@@ -16,7 +16,6 @@
 
 Primero acepta la siguienta asignación de github classroom para poder trabajar en el repositorio generado pues es allí donde realizarás tu entrega.
 
-[Asignación](https://classroom.github.com/a/_SSIlYo0)
 
 # Definición del Proyecto
 El proyecto está conformado de ejercicios y tareas que se van realizando en las sesiones impartidas a lo largo del curso. Cada cierto tiempo se debera realizar un entregable abarcando los siguientes periodos:
