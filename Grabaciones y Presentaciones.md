@@ -9,18 +9,18 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Jueves 23 Mar - RestAPIs](https://drive.google.com/file/d/1zDBnIE5iyKlZQosXkGbttQmeNbFjC6X_/view?usp=sharing)
 - 📺 [Grabación Jueves 23 Mar](https://drive.google.com/file/d/16nhlL-jDpzpq_rkzQfvdjRl5O1hfx9IZ/view?usp=sharing)
 - [Viernes 24 Mar - Serverless](https://drive.google.com/file/d/1ZJqdKQD1Sc2np5TagnaZbY0YFLZ2l_zn/view?usp=sharing)
-- 📺 [Grabación Viernes 24 Mar]()
+- 📺 [Grabación Viernes 24 Mar](https://drive.google.com/file/d/1ZHurbwpau1KFrVrUGZ-OboTpGHihmJKq/view?usp=sharing)
 
 # Semana 2
-- [Lunes 27 Mar - Kafka]()
+- [Lunes 27 Mar - Kafka](https://drive.google.com/file/d/1n4QRaTCsymTwYGhIqfQznSKlvcjpazbf/view?usp=sharing)
 - 📺 [Grabación Lunes 27 Abr]()
-- [Martes 28 Mar - Kafka]()
+- [Martes 28 Mar - Kafka](https://drive.google.com/file/d/1n4QRaTCsymTwYGhIqfQznSKlvcjpazbf/view?usp=sharing)
 - 📺 [Grabación Martes 28 Mar]()
-- [Miércoles 29 Mar - MongoDB]()
+- [Miércoles 29 Mar - MongoDB](https://drive.google.com/file/d/1pSy6zO_wmuSoaYiapDmkjpB2fWXH2XYr/view?usp=sharing)
 - 📺 [Grabación Miércoles 29 Mar]()
-- [Jueves 30 Mar - MongoDB]()
+- [Jueves 30 Mar - MongoDB](https://drive.google.com/file/d/1q0KZYZpeag8S1DdTqy5wuLMt88nXT-8H/view?usp=sharing)
 - 📺 [Grabación Jueves 30 Mar]()
-- [Viernes 31 Mar - MongoDB]()
+- [Viernes 31 Mar - MongoDB](https://drive.google.com/file/d/18orbQz6y_EOFjo0GPs_ngJNxSTMNMKdR/view?usp=sharing)
 - 📺 [Grabación Viernes 31 Mar]()
 
 # Semana 3
