@@ -118,7 +118,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrP
 | Mentor               | Mentee                          |  Liga para agendar mentoria                |
 |----------------------|---------------------------------|--------------------------------------------|
 | `Neftali Ramos Jimenez`       | - EDUARDO HERNANDEZ LOPEZ   <br/> - OMAR ALEJANDRO ALANIS VELAZQUEZ | [Liga](https://calendly.com/neftali-ramos/mentoria-baz) |
-| `Paco Ramírez Mojica`      | - HERIBERTO PEREZ PALMA  <br/> - FRANCISCO FEREGRINO CARRADA  <br> ERNESTO SANDOVAL BECERRA | [Liga](https://calendly.com/paco-mojica/mentoria-baz)
+| `Paco Ramírez Mojica`      | - HERIBERTO PEREZ PALMA  <br/> - FRANCISCO FEREGRINO CARRADA  <br> - ERNESTO SANDOVAL BECERRA | [Liga](https://calendly.com/paco-mojica/mentoria-baz)
 | `Pao Pileño Flores`       | - RAFAEL PEREZ DIAZ <br/> - MARCO ANTONIO DIAZ BAUTISTA <br/> - ALAN CRISTIAN CRUZ PEÑA | [Liga](https://calendly.com/paola-pileno/baz-mentoria-1-1)
 | `Oscar Balandrán Valtierra`       | - RONALDO SANTIAGO VALDEZ <br/> -  JAVIER JASSAEL BUSTOS ALFARO <br>  -  MIGUEL ANGEL ESCAMILLA MIRANDA | [Liga](https://calendly.com/oscar-balandran/baz-mentoria-1-1) |
 | `Ricardo Garza Verastegui`      | -  EFRAIN GONZALEZ PEREZ <br/> - CARLOS IVAN MORALES PEREA <br/>  - JOSE MANUEL PELENCO RAMIREZ | [Liga](https://calendly.com/ricardo-garza/mentoria-baz) |
