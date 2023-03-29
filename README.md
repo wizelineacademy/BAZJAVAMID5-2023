@@ -25,9 +25,10 @@ Bienvenido a tu capacitación de **Microservicios en Java/Spring Boot con JUnit.
 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
+Calendario QA Automation Bloque 4<br>
 <img width="478" alt="Calendario Java Jr Bloque 4" src="https://user-images.githubusercontent.com/94467952/227409817-cc674b38-25dc-4df7-82c8-0dca4d9676d5.png">
 
-En este calendario veras las sesiones que estan agendadas durante este curso.
+
 
 # II. Información general del entrenamiento
 El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimientos y habilidades en desarrollo de la mano de los ingenieros de Wizeline. El entrenamiento constará de los siguientes elementos:
