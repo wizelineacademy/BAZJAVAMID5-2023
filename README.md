@@ -109,7 +109,23 @@ Los temas estan divididos en 6 semanas, 5 sesiones por semana.
    2. [Pruebas de Integración](Semana%206/PruebasIntegracion/README.md)
    3. [Cobertura](Semana%206/Cobertura/README.md)
 
-# V. Agenda tu mentoria 📆
+
+# IV. 📺 Grabaciones sesiones y Presentaciones
+
+En [esta liga](Grabaciones%20y%20Presentaciones.md) encontrarás todas las grabaciones y presentaciones del curso.
+
+# V. Proyecto Final (Capstone Project)
+**Objetivo**
+Para aprobar el curso debes desarrollar un proyecto final en el cual reforzarás y aplicarás los conocimientos que vas adquiriendo.
+- Para poder presentar tu proyecto final, debes contar con un mínimo de **6 mentorías on-demand**
+- Tu participación en sesiones presenciales y virtuales se tomará en cuenta.
+
+[Aquí](https://github.com/wizelineacademy/BAZJAVA4-2023/blob/main/Proyecto%20Final%20Capstone%20Project.md) encontrarás las instrucciones para completar tu proyecto final. Recuerda registrar cada uno de tus entregables en este [formulario](https://forms.gle/FNoCFt2LD9ZVUpAB9)
+
+Para la revisión de tu Capstone Project se te asignó un mentor quien te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. 
+
+
+# VI. Agenda tu mentoria 📆
 Cada alumno/mentee debe contar con al menos 1 mentoría agendada por cada `Semana` del curso, para evaluar dudas de los temas de la semana o bien para validar los entregables.
 
 Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrPDypAF8) al final de tu mentoría.
@@ -128,20 +144,6 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrP
 | `Gerardo Lucas Cruz`    | - VICTOR ALFONSO DE LA CRUZ ALONSO <br/> - YAZMIN IVONNE ORTIZ TREJO <br/> - RENE VARGAS CRUZ | [Liga](https://calendly.com/gerardo-lucas/mentoria-baz)
 | `Gerardo Ruiz`         | - IVAN MARTINEZ ZARATE <br/> - EDUARDO ALARCON MARTINEZ <br/> | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) |
 
-
-# VI. 📺 Grabaciones sesiones y Presentaciones
-
-En [esta liga](Grabaciones%20y%20Presentaciones.md) encontrarás todas las grabaciones y presentaciones del curso.
-
-# V. Proyecto Final (Capstone Project)
-**Objetivo**
-Para aprobar el curso debes desarrollar un proyecto final en el cual reforzarás y aplicarás los conocimientos que vas adquiriendo.
-- Para poder presentar tu proyecto final, debes contar con un mínimo de **6 mentorías on-demand**
-- Tu participación en sesiones presenciales y virtuales se tomará en cuenta.
-
-[Aquí](https://github.com/wizelineacademy/BAZJAVA4-2023/blob/main/Proyecto%20Final%20Capstone%20Project.md) encontrarás las instrucciones para completar tu proyecto final. Recuerda registrar cada uno de tus entregables en este [formulario](https://forms.gle/FNoCFt2LD9ZVUpAB9)
-
-Para la revisión de tu Capstone Project se te asignó un mentor quien te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. 
 
 
 # VII. Contacto Wizeline DSA
