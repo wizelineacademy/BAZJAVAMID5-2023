@@ -25,16 +25,16 @@ Bienvenido a tu capacitación de **Microservicios en Java/Spring Boot con JUnit.
 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
-Calendario QA Automation Bloque 4<br>
+Calendario JAVA Bloque 4<br>
 <img width="478" alt="Calendario Java Jr Bloque 4" src="https://user-images.githubusercontent.com/94467952/227409817-cc674b38-25dc-4df7-82c8-0dca4d9676d5.png">
 
 
 
 # II. Información general del entrenamiento
-El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimientos y habilidades en desarrollo de la mano de los ingenieros de Wizeline. El entrenamiento constará de los siguientes elementos:
+El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimientos y habilidades en desarrollo de la mano de los ingenieros de Wizeline. El entrenamiento consta de los siguientes elementos:
 
 **Sesiones en Vivo** 
-- Estas serán clases presenciales que impartirán ingenieros de Wizeline, las sesiones tienen una duración de 2 horas.
+- Son clases presenciales que imparten ingenieros de Wizeline.
 - Lunes y martes: 9am en oficinas de Wizeline - [Liga Zoom](https://wizeline.zoom.us/j/84778203669?pwd=Q2RPd0wvVHNWYitDaHVNcm9EaU8vZz09) en caso de no poderse presentar.
 - Miércoles, Jueves y Viernes: 9am en línea por [Zoom](https://wizeline.zoom.us/j/83352402800)
 
@@ -43,20 +43,20 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 - En caso de no poder asistir a alguna sesión presencial y/o virtual, debes informarnos por Telegram y vía correo electrónico a Contacto DSA: baz-dsa@wizeline.com, con copia a Mercedes Vargas: mevargas@gesech.com y a tu líder de gremio. 
 
 **Mentorías Grupales**
-- Son sesiones de mentoría en sitio que se llevarán después de las sesiones en vivo para reforzar conocimientos y aclarar dudas. La duración de estas mentorías será de 2 horas.
+- Son sesiones de mentoría en sitio que se llevan a cabo después de las sesiones en vivo para reforzar conocimientos y aclarar dudas. La duración de estas mentorías es de 2 horas.
 - Lunes y martes: 11am en oficinas de Wizeline
 
 **Mentorías On Demand**
-- Estas serán sesiones en donde podrás interactuar con ingenieros de Wizeline para resolver dudas que tengas sobre los temas cubiertos en las sesiones en vivo, el material de autoestudio o sobre el proyecto final. Las mentorías tienen una duración de 1 hora, son en línea y son sobre demanda. Mas abajo estan las instrucciones y ligas para solicitar una sesión.
+- Son sesiones en donde puedes interactuar con ingenieros de Wizeline para resolver dudas que tengas sobre los temas cubiertos en las sesiones en vivo, el material de autoestudio o sobre el proyecto final. Las mentorías tienen una duración de 1 hora, son en línea y son sobre demanda. Más abajo están las instrucciones y ligas para solicitar una sesión.
 
 **Ruta de Autoaprendizaje**
-- Esto es una recopilación de recursos (artículos, videos, audios) que pondremos a tu disposición para que complementes tu aprendizaje.
+- Recopilación de recursos (artículos, videos, audios) que ponemos a tu disposición para que complementes tu aprendizaje.
 
 **Proyecto Final (Capstone Project)**
-- Este será un reto creado para poner en práctica los conocimientos adquiridos durante el entrenamiento. 
+- Reto creado para poner en práctica los conocimientos adquiridos durante el entrenamiento. 
 
 # III. Curricula del entrenamiento
-Los temas estan divididos en 6 semanas, 3 sesiones por semana. 
+Los temas estan divididos en 6 semanas, 5 sesiones por semana. 
 
 ## :bookmark_tabs: Sesiones
 
@@ -110,7 +110,7 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    3. [Cobertura](Semana%206/Cobertura/README.md)
 
 # V. Agenda tu mentoria 📆
-Cada alumno/mentee debera contar con al menos 1 mentoria agendada por cada `Semana` del curso, para evaluar dudas de los temas de la semana o bien para validar los entregables correspondientes a cada semana.
+Cada alumno/mentee debe contar con al menos 1 mentoría agendada por cada `Semana` del curso, para evaluar dudas de los temas de la semana o bien para validar los entregables.
 
 Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrPDypAF8) al final de tu mentoría.
 
@@ -135,13 +135,13 @@ En [esta liga](Grabaciones%20y%20Presentaciones.md) encontrarás todas las graba
 
 # V. Proyecto Final (Capstone Project)
 **Objetivo**
-Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzaras y aplicaras los conocimientos que vas adquiriendo.
+Para aprobar el curso debes desarrollar un proyecto final en el cual reforzarás y aplicarás los conocimientos que vas adquiriendo.
 - Para poder presentar tu proyecto final, debes contar con un mínimo de **6 mentorías on-demand**
-- Se tomará en cuenta tu participación en sesiones presenciales y virtuales. 
+- Tu participación en sesiones presenciales y virtuales se tomará en cuenta.
 
 [Aquí](https://github.com/wizelineacademy/BAZJAVA4-2023/blob/main/Proyecto%20Final%20Capstone%20Project.md) encontrarás las instrucciones para completar tu proyecto final.
 
-Para la revisión de tu Capstone Project se te asignará un mentor, el cual te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. Deberás enviar la URL de tus `Pull Request` a través del siguiente [formulario](https://forms.gle/HpNZSp1KroPWaQodA)
+Para la revisión de tu Capstone Project se te asignó un mentor quien te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. Debes enviar la URL de tus `Pull Request` a través del siguiente [formulario](https://forms.gle/HpNZSp1KroPWaQodA)
 
 
 # VII. Contacto Wizeline DSA
