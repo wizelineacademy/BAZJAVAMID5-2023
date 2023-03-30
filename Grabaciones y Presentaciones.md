@@ -17,7 +17,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 28 Mar - Kafka](https://drive.google.com/file/d/1n4QRaTCsymTwYGhIqfQznSKlvcjpazbf/view?usp=sharing)
 - 📺 [Grabación Martes 28 Mar](https://drive.google.com/file/d/19kN6IiDMt37da8VRCISdFKBpKankQdbP/view?usp=sharing)
 - [Miércoles 29 Mar - MongoDB](https://drive.google.com/file/d/1pSy6zO_wmuSoaYiapDmkjpB2fWXH2XYr/view?usp=sharing)
-- 📺 [Grabación Miércoles 29 Mar]()
+- 📺 [Grabación Miércoles 29 Mar](https://drive.google.com/file/d/1t1Mv_c3U4yyiZQecsM0v1t-z1LVR35b3/view?usp=sharing)
 - [Jueves 30 Mar - MongoDB](https://drive.google.com/file/d/1q0KZYZpeag8S1DdTqy5wuLMt88nXT-8H/view?usp=sharing)
 - 📺 [Grabación Jueves 30 Mar]()
 - [Viernes 31 Mar - MongoDB](https://drive.google.com/file/d/18orbQz6y_EOFjo0GPs_ngJNxSTMNMKdR/view?usp=sharing)
