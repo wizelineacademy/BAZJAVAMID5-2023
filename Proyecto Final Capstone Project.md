@@ -27,8 +27,8 @@ Se deberá enviar cada entrega en las fechas indicadas en la siguiente sección 
 
 # Entregables
 ## Fechas de Entrega
- - Entregable 1: viernes 10 de abril - 6:00pm
- - Entregable 2: viernes 24 de abril - 6:00pm
+ - Entregable 1: lunes 10 de abril - 6:00pm
+ - Entregable 2: lunes 24 de abril - 6:00pm
  - Entregable 3: lunes 8 de mayo - 6:00pm
 
 ## Entregable 1
