@@ -19,7 +19,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Miércoles 29 Mar - MongoDB](https://drive.google.com/file/d/1pSy6zO_wmuSoaYiapDmkjpB2fWXH2XYr/view?usp=sharing)
 - 📺 [Grabación Miércoles 29 Mar](https://drive.google.com/file/d/1t1Mv_c3U4yyiZQecsM0v1t-z1LVR35b3/view?usp=sharing)
 - [Jueves 30 Mar - MongoDB](https://drive.google.com/file/d/1q0KZYZpeag8S1DdTqy5wuLMt88nXT-8H/view?usp=sharing)
-- 📺 [Grabación Jueves 30 Mar]()
+- 📺 [Grabación Jueves 30 Mar](https://drive.google.com/file/d/1tS3z1zxaxCE4TCMDEk3wtW84OKeqaSwh/view?usp=sharing)
 - [Viernes 31 Mar - MongoDB](https://drive.google.com/file/d/18orbQz6y_EOFjo0GPs_ngJNxSTMNMKdR/view?usp=sharing)
 - 📺 [Grabación Viernes 31 Mar]()
 
