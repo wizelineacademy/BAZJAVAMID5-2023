@@ -24,15 +24,15 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabación Viernes 31 Mar](https://drive.google.com/file/d/1GJHWOT4ui2bSkqMqkVViXn9kNr2G0Y_0/view?usp=sharing)
 
 # Semana 3
-- [Lunes 10 Abr - ]()
+- [Lunes 10 Abr - Java 1](https://drive.google.com/file/d/1ecBLAQ9rYzuDlie4_n-iDDOx742cUq_b/view?usp=sharing)
 - 📺 [Grabación Lunes 10 Abr]()
-- [Martes 11 Abr - ]()
+- [Martes 11 Abr - Java 2](https://drive.google.com/file/d/1ZII8PFk9TxVYRbC1_5BMopR3Yx5mzVzq/view?usp=sharing)
 - 📺 [Grabación Martes 11 Abr]()
-- [Miércoles 12 Abr - ]()
+- [Miércoles 12 Abr - Java 3](https://drive.google.com/file/d/1NYpPNOAeXTMSfHhkgiyKNxdBDT0mWZzU/view?usp=sharing)
 - 📺 [Grabación Miércoles 12 Abr]()
-- [Jueves 13 Abr - ]()
+- [Jueves 13 Abr - Java 4](https://drive.google.com/file/d/1gS09oXj7okEFKOiGpg0QJTWN5Sph3ZbQ/view?usp=sharing)
 - 📺 [Grabación Jueves 13 Abr]()
-- [Viernes 14 Abr - ]()
+- [Viernes 14 Abr - Java 5](https://drive.google.com/file/d/1nTtzNypknZF1KzIcShZtIbvNJxtcr-rK/view?usp=sharing)
 - 📺 [Grabación Viernes 14 Abr]()
 
 # Semana 4
