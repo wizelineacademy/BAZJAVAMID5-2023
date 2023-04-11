@@ -25,7 +25,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 
 # Semana 3
 - [Lunes 10 Abr - Java 1](https://drive.google.com/file/d/1ecBLAQ9rYzuDlie4_n-iDDOx742cUq_b/view?usp=sharing)
-- 📺 [Grabación Lunes 10 Abr]()
+- 📺 [Grabación Lunes 10 Abr](https://drive.google.com/file/d/1yRxH0dOHemx2Z-49HTVgzWxml7PJ3NF9/view?usp=sharing)
 - [Martes 11 Abr - Java 2](https://drive.google.com/file/d/1ZII8PFk9TxVYRbC1_5BMopR3Yx5mzVzq/view?usp=sharing)
 - 📺 [Grabación Martes 11 Abr]()
 - [Miércoles 12 Abr - Java 3](https://drive.google.com/file/d/1NYpPNOAeXTMSfHhkgiyKNxdBDT0mWZzU/view?usp=sharing)
