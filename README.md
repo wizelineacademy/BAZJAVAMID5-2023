@@ -139,7 +139,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrP
 | `Pao Pileño Flores`       | - RAFAEL PEREZ DIAZ <br/> - MARCO ANTONIO DIAZ BAUTISTA <br/> - ALAN CRISTIAN CRUZ PEÑA | [Liga](https://calendly.com/paola-pileno/baz-mentoria-1-1)
 | `Oscar Balandrán Valtierra`       | - RONALDO SANTIAGO VALDEZ <br/> -  JAVIER JASSAEL BUSTOS ALFARO <br>  -  MIGUEL ANGEL ESCAMILLA MIRANDA | [Liga](https://calendly.com/oscar-balandran/baz-mentoria-1-1) |
 | `Ricardo Garza Verastegui`      | -  EFRAIN GONZALEZ PEREZ <br/> - CARLOS IVAN MORALES PEREA <br/>  - JOSE MANUEL PELENCO RAMIREZ | [Liga](https://calendly.com/ricardo-garza/mentoria-baz) |
-| `Walter Franco`      |  - ALEXIS ZUGARAZO BERNAL <br/> - JONATAN CRISTIAN FLORES SANCHEZ <br/> - HUGO ENRIQUE AMARO OLGUIN  | [Liga](https://calendly.com/walter-franco-24)
+| `Walter Franco`      |  - ALEXIS ZUGARAZO BERNAL <br/> - HUGO ENRIQUE AMARO OLGUIN  | [Liga](https://calendly.com/walter-franco-24)
 | `Mitzi Torales Castillo`  | - MARGARITO MIGUEL GONZALEZ CLARA <br/> - JOSE LUIS SOTO GARCIA <br/> - CRISTIAN EDUARDO ORTEGA VELAZQUEZ | [Liga](https://calendly.com/mitzi-torales/mentoria-baz)
 | `Gerardo Lucas Cruz`    | - VICTOR ALFONSO DE LA CRUZ ALONSO <br/> - YAZMIN IVONNE ORTIZ TREJO <br/> - RENE VARGAS CRUZ | [Liga](https://calendly.com/gerardo-lucas/mentoria-baz)
 | `Gerardo Ruiz`         | - IVAN MARTINEZ ZARATE <br/> - EDUARDO ALARCON MARTINEZ <br/> | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) |
