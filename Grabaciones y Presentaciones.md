@@ -29,7 +29,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 11 Abr - Java 2](https://drive.google.com/file/d/1ZII8PFk9TxVYRbC1_5BMopR3Yx5mzVzq/view?usp=sharing)
 - 📺 [Grabación Martes 11 Abr](https://drive.google.com/file/d/11mwJjXaDztjY0K5ig9U011d9kyZnWQxB/view?usp=sharing)
 - [Miércoles 12 Abr - Java 3](https://drive.google.com/file/d/1NYpPNOAeXTMSfHhkgiyKNxdBDT0mWZzU/view?usp=sharing)
-- 📺 [Grabación Miércoles 12 Abr]()
+- 📺 [Grabación Miércoles 12 Abr](https://drive.google.com/file/d/1UDu0up3NgAhTZg6rdMDG_WBYNn4rvluS/view?usp=sharing)
 - [Jueves 13 Abr - Java 4](https://drive.google.com/file/d/1gS09oXj7okEFKOiGpg0QJTWN5Sph3ZbQ/view?usp=sharing)
 - 📺 [Grabación Jueves 13 Abr]()
 - [Viernes 14 Abr - Java 5](https://drive.google.com/file/d/1nTtzNypknZF1KzIcShZtIbvNJxtcr-rK/view?usp=sharing)
