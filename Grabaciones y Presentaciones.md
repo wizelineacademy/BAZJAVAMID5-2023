@@ -57,7 +57,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Jueves 27 Abr - Spring boot 4](https://drive.google.com/file/d/12uPUI8f0S4sla5HqoKLX2uqx2uS-giOW/view?usp=sharing)
 - 📺 [Grabación Jueves 27 Abr](https://drive.google.com/file/d/154zghTczP_HpZ3PVsksQAlIWlYTuyfdX/view?usp=sharing)
 - [Viernes 28 Abr - Spring boot 5](https://drive.google.com/file/d/1RQ5pkwdS1cJZhEeBgyuOlxvxoFEGsBAX/view?usp=sharing)
-- 📺 [Grabación Viernes 28 Abr]()
+- 📺 [Grabación Viernes 28 Abr](https://drive.google.com/file/d/1U0rf7DFJbulz_yLMidlXSAfCZ3YXZw7c/view?usp=sharing)
 
 # Semana 6
 - [Martes 2 May - ]()
