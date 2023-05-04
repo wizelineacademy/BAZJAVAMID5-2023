@@ -63,7 +63,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 2 May - JUNIT 1](https://drive.google.com/file/d/1CdQofLom1p7JMMZYsNBJKMhCcV4iqGx7/view?usp=sharing)
 - 📺 [Grabación Martes 2 May](https://drive.google.com/file/d/1ElP7fRoIYIf-OMS9FNz_4k0I8k-Hq_uZ/view?usp=sharing)
 - [Miércoles 3 May - JUNIT 2](https://drive.google.com/file/d/1RccV9Xc2jezP_KDKbAcMYp557bPDffof/view?usp=sharing)
-- 📺 [Grabación Miércoles 3 May]()
+- 📺 [Grabación Miércoles 3 May](https://drive.google.com/file/d/1It4-v49GYce0nT3ICUlrlCuO8_Fqhxs9/view?usp=sharing)
 - [Jueves 4 May - JUNIT 3](https://drive.google.com/file/d/19d4RG8TckUDad4p6Zg5A8nb0aJq-qlt2/view?usp=sharing)
 - 📺 [Grabación Jueves 4 May]()
 - [Viernes 5 May - JUNIT 4](https://drive.google.com/file/d/1zbFTIyheh6s5jKOQjjuP2abs9r2sXaNQ/view?usp=sharing)
