@@ -102,7 +102,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrP
 | `José Perea`      | -  RAMON ALDAIR GALVEZ MOLOHUA <br/> - GUSTAVO GARCIA LEMUS <br/>  - HECTOR MIGUEL GERMAN CHAVARRIA | [Liga]() |
 | `Diego Osorno`      |  - MANUEL CHAGALA TEMICH <br/> - HAFID OMAR SANCHEZ ESCANDON <br/> - RAFAEL MURO MENDOZA  | [Liga]()
 | `Daniel Jiménez`  | - CESAR AUGUSTO GARCIA ALONSO <br/> -  <br/> - ADAM FRANCISCO HERNANDEZ RETAMA <br/> - GUILLERMO RAMOS FLORES | [Liga](z)
-| `Álvaro Rodríguez`    | - CHARLY GIL NAVARRO <br/> -  <br/> - GERMAN CABALLERO PALACIOS <br/> - JOSE CARLOS EMMANUEL GUZMAN GALEANA  | [Liga]()
+| `Álvaro Rodríguez`    | - CHARLY GIL NAVARRO  <br/> - GERMAN CABALLERO PALACIOS <br/> - JOSE CARLOS EMMANUEL GUZMAN GALEANA  | [Liga]()
 | `Mentor 9`         | - HOTONIEL MEZA HERNANDEZ <br/> - JUAN CARLOS ANDRES GONZALEZ <br/> - JAVIER ESTEBAN GÓMEZ TEJEDA| [Liga]() |
 | `Mentor 10`         | - JOSE LUIS BARRIENTOS CERVANTES <br/> - EDWIN CARLOS CHAVEZ RIVERA <br/> - JOSE ANTONIO BRISEÑO TENORIO| [Liga]() |
 | `Mentor 11`         | - RICARDO ISIDRO RAFAEL PEREZ <br/> - JUAN MANUEL PINEDA AGUILERA <br/> - OSCAR RAMIREZ ZARRAGA| [Liga]() |
