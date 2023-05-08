@@ -1,9 +1,0 @@
-banking-service:
-  ribbon:
-    eureka:
-      enabled: false
-    listOfServers: localhost:8080,localhost:8081,localhost:8082
-    ServerListRefreshInterval: 15000
-    
-server:
-  port: 8989
