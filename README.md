@@ -23,7 +23,7 @@ Bienvenido a tu capacitación de **Microservicios en Java/Spring Boot con JUnit.
 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
-Calendario JAVA INT Bloque 5<br> <img width="948" alt="Screen Shot 2023-05-05 at 16 14 36" src="https://user-images.githubusercontent.com/114529977/236577358-a5723abc-d88d-487e-ad9b-68dd37d44f84.png">
+Calendario JAVA MID Bloque 5<br> <img width="948" alt="Screen Shot 2023-05-05 at 16 14 36" src="https://user-images.githubusercontent.com/114529977/236577358-a5723abc-d88d-487e-ad9b-68dd37d44f84.png">
 
 
 # II. Información general del entrenamiento
