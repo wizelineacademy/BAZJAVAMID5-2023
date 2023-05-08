@@ -31,14 +31,14 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 **Sesiones en Vivo** 
 - Son clases presenciales que imparten ingenieros de Wizeline.
-- Lunes, martes y miércoles: 2pm en oficinas de Wizeline - [Liga Zoom](https://wizeline.zoom.us/j/88288594209) en caso de no poderse presentar.
+- Lunes, martes y miércoles: 2pm en oficinas de Wizeline - [Liga Zoom](https://wizeline.zoom.us/j/88288594209) en caso de no poderte presentar (con previo aviso a tus líderes).
 
-- En las sesiones en línea, es **obligatorio** tener la cámara prendida.
+- En caso de asistir en línea, es **obligatorio** tener la cámara prendida.
 - Debes asisitir a mínimo 10 sesiones presenciales para tener derecho a presentar tu Proyecto Final
-- En caso de no poder asistir a alguna sesión presencial y/o virtual, debes informarnos por Telegram y vía correo electrónico a Contacto DSA: baz-dsa@wizeline.com, con copia a Mercedes Vargas: mevargas@gesech.com y a tu líder de gremio. 
+- En caso de no poder asistir a alguna sesión presencial, debes informarnos por Telegram y vía correo electrónico a Contacto DSA: baz-dsa@wizeline.com, con copia a Mercedes Vargas: mevargas@gesech.com y a tu líder de gremio. 
 
 **Mentorías On Demand**
-- Son sesiones en donde puedes interactuar con ingenieros de Wizeline para resolver dudas que tengas sobre los temas cubiertos en las sesiones en vivo, el material de autoestudio o sobre el proyecto final. Las mentorías tienen una duración de 1 hora, son en línea y son sobre demanda. Más abajo están las instrucciones y ligas para solicitar una sesión.
+- Son sesiones en donde puedes interactuar con ingenieros de Wizeline para resolver dudas que tengas sobre los temas cubiertos en las sesiones en vivo, el material de autoestudio o sobre el proyecto final. Las mentorías tienen una duración de 1 hora, son en línea y son bajo demanda. Más abajo están las instrucciones y ligas para solicitar una sesión.
 
 **Ruta de Autoaprendizaje**
 - Recopilación de recursos (artículos, videos, audios) que ponemos a tu disposición para que complementes tu aprendizaje.
@@ -78,8 +78,8 @@ En [esta liga](Grabaciones%20y%20Presentaciones.md) encontrarás todas las graba
 # V. Proyecto Final (Capstone Project)
 **Objetivo**
 Para aprobar el curso debes desarrollar un proyecto final en el cual reforzarás y aplicarás los conocimientos que vas adquiriendo.
-- Para poder presentar tu proyecto final, debes contar con un mínimo de **6 mentorías on-demand**
-- Tu participación en sesiones presenciales y virtuales se tomará en cuenta.
+- Para poder presentar tu proyecto final, debes contar con un mínimo de **4 mentorías on-demand**
+- Tu participación en sesiones presenciales se tomará en cuenta.
 
 [Aquí](h) encontrarás las instrucciones para completar tu proyecto final. Recuerda registrar cada uno de tus entregables en este [formulario](https://forms.gle/pvxQXctbCVH1Xt2y8)
 
@@ -95,16 +95,17 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrP
 
 | Mentor               | Mentee                          |  Liga para agendar mentoria                |
 |----------------------|---------------------------------|--------------------------------------------|
-| `Neftali Ramos Jimenez`       | - EDUARDO HERNANDEZ LOPEZ   <br/> - OMAR ALEJANDRO ALANIS VELAZQUEZ | [Liga](https://calendly.com/neftali-ramos/mentoria-baz) |
-| `Paco Ramírez Mojica`      | - HERIBERTO PEREZ PALMA  <br/> - FRANCISCO FEREGRINO CARRADA  <br> - ERNESTO SANDOVAL BECERRA | [Liga](https://calendly.com/paco-mojica/mentoria-baz)
-| `Pao Pileño Flores`       | - RAFAEL PEREZ DIAZ <br/> - MARCO ANTONIO DIAZ BAUTISTA <br/> - ALAN CRISTIAN CRUZ PEÑA | [Liga](https://calendly.com/paola-pileno/baz-mentoria-1-1)
-| `Oscar Balandrán Valtierra`       | - RONALDO SANTIAGO VALDEZ <br/> -  JAVIER JASSAEL BUSTOS ALFARO <br>  -  MIGUEL ANGEL ESCAMILLA MIRANDA | [Liga](https://calendly.com/oscar-balandran/baz-mentoria-1-1) |
-| `Ricardo Garza Verastegui`      | -  EFRAIN GONZALEZ PEREZ <br/> - CARLOS IVAN MORALES PEREA <br/>  - JOSE MANUEL PELENCO RAMIREZ | [Liga](https://calendly.com/ricardo-garza/mentoria-baz) |
-| `Walter Franco`      |  - ALEXIS ZUGARAZO BERNAL <br/> - HUGO ENRIQUE AMARO OLGUIN  | [Liga](https://calendly.com/walter-franco-24)
-| `Mitzi Torales Castillo`  | - MARGARITO MIGUEL GONZALEZ CLARA <br/> - JOSE LUIS SOTO GARCIA <br/> - CRISTIAN EDUARDO ORTEGA VELAZQUEZ | [Liga](https://calendly.com/mitzi-torales/mentoria-baz)
-| `Gerardo Lucas Cruz`    | - VICTOR ALFONSO DE LA CRUZ ALONSO <br/> - YAZMIN IVONNE ORTIZ TREJO <br/> - RENE VARGAS CRUZ | [Liga](https://calendly.com/gerardo-lucas/mentoria-baz)
-| `Gerardo Ruiz`         | - IVAN MARTINEZ ZARATE <br/> - EDUARDO ALARCON MARTINEZ <br/> | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) |
-
+| `Marco Robles`       | - FRANCISCO JAVIER GRAJEDA HERNANDEZ   <br/> - ANGEL ISAI ZAVALA CANO <br/> - ROGELIO MARTIN PEREZ CHAVEZ | [Liga]() |
+| `Walter Franco`      | - JOSUE ELI PEREZ MORALES  <br/> - DANIEL DE JESUS GARCIA LABASTIDA  <br> - JAVIER COCOLETZI CUAMATZI | [Liga](https://calendly.com/walter-franco-24)
+| `Walter Gómez`       | - ANGEL PALOALTO PARRA <br/> - DAVID OSVALDO DE LOS SANTOS LOPEZ <br/> - DANIEL LOPEZ GUADARRAMA | [Liga]()
+| `Gerardo Ruiz`       | - FERNANDO PONCIANO SARMINA <br/> -  GONZALO FERNANDO CORTINA CARDOSO <br>  -  ERICK DE JESUS GARCIA PEREZ | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) |
+| `José Perea`      | -  RAMON ALDAIR GALVEZ MOLOHUA <br/> - GUSTAVO GARCIA LEMUS <br/>  - HECTOR MIGUEL GERMAN CHAVARRIA | [Liga]() |
+| `Diego Osorno`      |  - MANUEL CHAGALA TEMICH <br/> - HAFID OMAR SANCHEZ ESCANDON <br/> - RAFAEL MURO MENDOZA  | [Liga]()
+| `Daniel Jiménez`  | - CESAR AUGUSTO GARCIA ALONSO <br/> -  <br/> - ADAM FRANCISCO HERNANDEZ RETAMA <br/> - GUILLERMO RAMOS FLORES | [Liga](z)
+| `Álvaro Rodríguez`    | - CHARLY GIL NAVARRO <br/> -  <br/> - GERMAN CABALLERO PALACIOS <br/> - JOSE CARLOS EMMANUEL GUZMAN GALEANA  | [Liga]()
+| `Mentor 9`         | - HOTONIEL MEZA HERNANDEZ <br/> - JUAN CARLOS ANDRES GONZALEZ <br/> - JAVIER ESTEBAN GÓMEZ TEJEDA| [Liga]() |
+| `Mentor 10`         | - JOSE LUIS BARRIENTOS CERVANTES <br/> - EDWIN CARLOS CHAVEZ RIVERA <br/> - JOSE ANTONIO BRISEÑO TENORIO| [Liga]() |
+| `Mentor 11`         | - RICARDO ISIDRO RAFAEL PEREZ <br/> - JUAN MANUEL PINEDA AGUILERA <br/> - OSCAR RAMIREZ ZARRAGA| [Liga]() |
 
 
 # VII. Contacto Wizeline DSA
