@@ -1,4 +1,4 @@
-## 📺 GRUPO 4: Grabaciones y Presentaciones
+## 📺 JAVA MID : Grabaciones y Presentaciones
 Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cada sesión.
 
 # Semana 1
