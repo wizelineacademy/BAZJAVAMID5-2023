@@ -97,11 +97,11 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/ZvhbRp8jBrP
 |----------------------|---------------------------------|--------------------------------------------|
 | `Marco Robles`       | - FRANCISCO JAVIER GRAJEDA HERNANDEZ   <br/> - ANGEL ISAI ZAVALA CANO <br/> - ROGELIO MARTIN PEREZ CHAVEZ | [Liga]() |
 | `Walter Franco`      | - JOSUE ELI PEREZ MORALES  <br/> - DANIEL DE JESUS GARCIA LABASTIDA  <br> - JAVIER COCOLETZI CUAMATZI | [Liga](https://calendly.com/walter-franco-24)
-| `Walter Gómez`       | - ANGEL PALOALTO PARRA <br/> - DAVID OSVALDO DE LOS SANTOS LOPEZ <br/> - DANIEL LOPEZ GUADARRAMA | [Liga]()
+| `Walter Gómez`       | - ANGEL PALOALTO PARRA <br/> - DAVID OSVALDO DE LOS SANTOS LOPEZ <br/> - DANIEL LOPEZ GUADARRAMA | [Liga](https://calendly.com/walter-gomez-wizeline)
 | `Gerardo Ruiz`       | - FERNANDO PONCIANO SARMINA <br/> -  GONZALO FERNANDO CORTINA CARDOSO <br>  -  ERICK DE JESUS GARCIA PEREZ | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) |
 | `José Perea`      | -  RAMON ALDAIR GALVEZ MOLOHUA <br/> - GUSTAVO GARCIA LEMUS <br/>  - HECTOR MIGUEL GERMAN CHAVARRIA | [Liga](https://calendly.com/jose-vazquez-wizeline) |
-| `Diego Osorno`      |  - MANUEL CHAGALA TEMICH <br/> - HAFID OMAR SANCHEZ ESCANDON <br/> - RAFAEL MURO MENDOZA  | [Liga]()
-| `Daniel Jiménez`  | - CESAR AUGUSTO GARCIA ALONSO  <br/> - ADAM FRANCISCO HERNANDEZ RETAMA <br/> - GUILLERMO RAMOS FLORES | [Liga](z)
+| `Diego Osorno`      |  - MANUEL CHAGALA TEMICH <br/> - HAFID OMAR SANCHEZ ESCANDON <br/> - RAFAEL MURO MENDOZA  | [Liga](https://calendly.com/diego-osorno-wizeline/baz-mentoria-1-1)
+| `Daniel Jiménez`  | - CESAR AUGUSTO GARCIA ALONSO  <br/> - ADAM FRANCISCO HERNANDEZ RETAMA <br/> - GUILLERMO RAMOS FLORES | [Liga]()
 | `Álvaro Rodríguez`    | - CHARLY GIL NAVARRO  <br/> - GERMAN CABALLERO PALACIOS <br/> - JOSE CARLOS EMMANUEL GUZMAN GALEANA  | [Liga](https://calendly.com/arodez/baz-mentoria-1-1)
 | `Mentor 9`         | - HOTONIEL MEZA HERNANDEZ <br/> - JUAN CARLOS ANDRES GONZALEZ <br/> - JAVIER ESTEBAN GÓMEZ TEJEDA| [Liga]() |
 | `Mentor 10`         | - JOSE LUIS BARRIENTOS CERVANTES <br/> - EDWIN CARLOS CHAVEZ RIVERA <br/> - JOSE ANTONIO BRISEÑO TENORIO| [Liga]() |
