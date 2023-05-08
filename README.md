@@ -1,4 +1,4 @@
-# Digital Skills Accelerator Training - Microservicios en Java/Spring Boot con JUnit
+# Digital Skills Accelerator Training - Java Mid
 
 <!-- Table of Content -->
 
@@ -17,7 +17,7 @@
 <!---------------------->
 
 # I. Bienvenida
-Bienvenido a tu capacitación de **Microservicios en Java/Spring Boot con JUnit.**
+Bienvenido a tu capacitación de **Java Mid.**
 
 [Liga Acceso Telegram grupal](https://t.me/+1I2MYT0NJhZiYTJh)
 
