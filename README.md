@@ -10,7 +10,7 @@
         - [Semana 2 - Cloud y MongoDB](#semana-2---cloud)
         - [Semana 3 - Java, Spring Boot y JUnit](#semana-3---java)
         - [Semana 4 - Clean Code](#semana-4---clean-code)
-- [IV 📺 Grabaciones sesiones y Presentaciones](#iv-grabaciones-sesiones-y-presentaciones)
+- [IV. Grabaciones sesiones y Presentaciones 📺](#iv-grabaciones-sesiones-y-presentaciones)
 - [V. Proyecto Final Capstone Project](#v-proyecto-final-capstone-project)
 - [VI. Agenda tu mentoria 📆](#vi-agenda-tu-mentoria-)
 - [VII. Contacto Wizeline DSA](#vii-contacto-wizeline-dsa)
@@ -69,7 +69,7 @@ Los temas estan divididos en 4 semanas, 3 sesiones por semana.
    1. [Clean Code](Semana%204/Clean%20Code/README.md)
    
 
-# IV. 📺 Grabaciones sesiones y Presentaciones
+# IV. Grabaciones Sesiones y Presentaciones 📺
 
 En [esta liga](Grabaciones%20y%20Presentaciones.md) encontrarás todas las grabaciones y presentaciones del curso.
 
