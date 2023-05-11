@@ -10,7 +10,7 @@
         - [Semana 2 - Cloud y MongoDB](#semana-2---cloud)
         - [Semana 3 - Java, Spring Boot y JUnit](#semana-3---java)
         - [Semana 4 - Clean Code](#semana-4---clean-code)
-- [IV. Grabaciones sesiones y Presentaciones 📺](#iv-grabaciones-sesiones-y-presentaciones)
+- [IV. Grabaciones sesiones y Presentaciones 📺](#iv-grabaciones-sesiones-y-presentaciones-)
 - [V. Proyecto Final Capstone Project](#v-proyecto-final-capstone-project)
 - [VI. Agenda tu mentoria 📆](#vi-agenda-tu-mentoria-)
 - [VII. Contacto Wizeline DSA](#vii-contacto-wizeline-dsa)
