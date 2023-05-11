@@ -1,6 +1,6 @@
 
 # Proyecto Final
-- [Proyecto Final](#proyecto-final)
+- [Espacio de trabajo](#espacio-de-trabajo)
 - [Definición del Proyecto](#definici%C3%B3n-del-proyecto)
 - [Entregables](#entregables)
     - [Fechas de Entrega](#fechas-de-entrega)
