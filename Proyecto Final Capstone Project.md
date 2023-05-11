@@ -20,7 +20,7 @@ El proyecto está conformado de ejercicios y tareas que se van realizando en las
   - Entregable 1 - Semanas 1 y 2
   - Entregable 2 - Semanas 3 y 4
 
-Se deberá enviar cada entrega en las fechas indicadas en la siguiente sección y para poder tener una `revisión` y `retroalimentación` se deberá enviar la URL de tu `Pull Request` a través del siguiente [formulario](https://forms.gle/DEq1q92mVTRTPMBg6), lo que nos indicará que está listo tu entregable para revisión.
+Se deberá enviar cada entrega en las fechas indicadas en la siguiente sección y para poder tener una `revisión` y `retroalimentación` se deberá enviar la URL de tu `Pull Request` a través del siguiente [formulario](https://forms.gle/pFMDiMEZSP4xNx3L8), lo que nos indicará que está listo tu entregable para revisión.
 
 # Entregables
 ## Fechas de Entrega
