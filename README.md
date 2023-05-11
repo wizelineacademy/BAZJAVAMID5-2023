@@ -1,4 +1,4 @@
-# Digital Skills Accelerator Training - Java Mid
+# Digital Skills Accelerator Training - Microservicios en Java/Spring Boot con JUnit en ambientes Cloud
 
 <!-- Table of Content -->
 
@@ -6,10 +6,10 @@
 - [II. Información general del entrenamiento](#ii-informaci%C3%B3n-general-del-entrenamiento)
 - [III. Curricula del entrenamiento](#iii-curricula-del-entrenamiento)
     - [:bookmark_tabs: Sesiones](#bookmark_tabs-sesiones)
-        - [Semana 1 - Git, Microservicios, Kafka](#semana-1---fundamentos)
-        - [Semana 2 - Cloud, MongoDB](#semana-2---fundamentos)
-        - [Semana 3 - Java, Spring Boot, JUNIT](#semana-3---java)
-        - [Semana 4 - Clean Code](#semana-4---spring-boot)
+        - [Semana 1 - Git, Microservicios y Kafka](#semana-1---fundamentos)
+        - [Semana 2 - Cloud y MongoDB](#semana-2---cloud)
+        - [Semana 3 - Java, Spring Boot y JUnit](#semana-3---java)
+        - [Semana 4 - Clean Code](#semana-4---clean-code)
 - [IV 📺 Grabaciones sesiones y Presentaciones](#-grabaciones-sesiones-y-presentaciones)
 - [V. Proyecto Final Capstone Project](#iv-proyecto-final-capstone-project)
 - [VI. Agenda tu mentoria 📆](#v-agenda-tu-mentoria-)
@@ -51,24 +51,22 @@ Los temas estan divididos en 4 semanas, 3 sesiones por semana.
 
 ## :bookmark_tabs: Sesiones
 
-### Semana 1 - Fundamentos
+### Semana 1 - Git, Microservicios y Kafka
    1. [Git](Semana%201/Git/README.md) 
    2. [Microservicios](Semana%201/Microservicios/README.md)
-   3. [Kafka](Semana%201/RestAPIs/README.md)
+   3. [Kafka](Semana%201/Kafka/README.md)
    
-
-### Semana 2 - Fundamentos
-   1. [Cloud](Semana%202/Kafka)
+### Semana 2 - Cloud y MongoDB
+   1. [Cloud](Semana%202/Cloud/README.md)
    2. [MongoDB](Semana%202/MongoDB/README.md)
 
-### Semana 3 - Java
-   1. [Java](Semana%203/POO/README.md)
-   2. [Spring Boot](Semana%203/TiposDatos/README.md)
-   3. [JUNIT](Semana%203/ExpReg/README.md)
+### Semana 3 - Java, Spring Boot y JUnit
+   1. [Java](Semana%203/Java/README.md)
+   2. [Spring Boot](Semana%203/Spring%20Boot/README.md)
+   3. [JUnit](Semana%203/JUnit/README.md)
   
-
-### Semana 4 - Spring Boot
-   1. [Clean Code](Semana%204/Configuracion/README.md)
+### Semana 4 - Clean Code
+   1. [Clean Code](Semana%204/Clean%20Code/README.md)
    
 
 # IV. 📺 Grabaciones sesiones y Presentaciones
@@ -81,7 +79,7 @@ Para aprobar el curso debes desarrollar un proyecto final en el cual reforzarás
 - Para poder presentar tu proyecto final, debes contar con un mínimo de **4 mentorías on-demand**
 - Tu participación en sesiones presenciales se tomará en cuenta.
 
-[Aquí](h) encontrarás las instrucciones para completar tu proyecto final. Recuerda registrar cada uno de tus entregables en este [formulario](https://forms.gle/pvxQXctbCVH1Xt2y8)
+[Aquí](Proyecto%20Final%20Capstone%20Project.md) encontrarás las instrucciones para completar tu proyecto final. Recuerda registrar cada uno de tus entregables en este [formulario](https://forms.gle/pvxQXctbCVH1Xt2y8)
 
 Para la revisión de tu Capstone Project se te asignó un mentor quien te dará retroalimentación por medio de comentarios en tu repositorio. Si tienes dudas o quieres revisar más a fondo, puedes agendar una mentoría 1:1. 
 
