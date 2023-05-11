@@ -8,15 +8,12 @@
         - [Requerimientos y Criterio de Evaluación](#requerimientos-y-criterio-de-evaluaci%C3%B3n)
     - [Entregable 2](#entregable-2)
         - [Requerimientos y Criterio de Evaluación](#requerimientos-y-criterio-de-evaluaci%C3%B3n)
-    - [Entregable 3](#entregable-3)
-        - [Para poder considerar completadas las semanas 5 y 6 de entrenamiento debe contemplar lo siguiente:](#para-poder-considerar-completadas-las-semanas-5-y-6-de-entrenamiento-debe-contemplar-lo-siguiente)
-        - [Criterio de Evaluación](#criterio-de-evaluaci%C3%B3n)
 
 # Espacio de trabajo
 
-Primero acepta la siguienta asignación de github classroom para poder trabajar en el repositorio generado pues es allí donde realizarás tu entrega.
+Primero acepta la siguienta asignación de Github Classroom para poder trabajar en el repositorio generado pues es allí donde realizarás tu entrega.
 
-[Asignación](https://classroom.github.com/a/6Tv73W6t)
+[Asignación](https://classroom.github.com/a/YukLf8IY)
 
 # Definición del Proyecto
 El proyecto está conformado de ejercicios y tareas que se van realizando en las sesiones impartidas a lo largo del curso. Cada cierto tiempo se debera realizar un entregable abarcando los siguientes periodos:
