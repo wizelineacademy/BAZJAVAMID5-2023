@@ -19,25 +19,22 @@ Primero acepta la siguienta asignación de Github Classroom para poder trabajar 
 El proyecto está conformado de ejercicios y tareas que se van realizando en las sesiones impartidas a lo largo del curso. Cada cierto tiempo se debera realizar un entregable abarcando los siguientes periodos:
   - Entregable 1 - Semanas 1 y 2
   - Entregable 2 - Semanas 3 y 4
-  - Entregable 3 - Semanas 5 y 6
 
 Se deberá enviar cada entrega en las fechas indicadas en la siguiente sección y para poder tener una `revisión` y `retroalimentación` se deberá enviar la URL de tu `Pull Request` a través del siguiente [formulario](https://forms.gle/DEq1q92mVTRTPMBg6), lo que nos indicará que está listo tu entregable para revisión.
 
 # Entregables
 ## Fechas de Entrega
- - Entregable 1: lunes 10 de abril - 6:00pm
- - Entregable 2: lunes 24 de abril - 6:00pm
- - Entregable 3: lunes 8 de mayo - 6:00pm
+ - Entregable 1: lunes 5 de junio - 6:00pm
+ - Entregable 2: lunes 19 de junio - 6:00pm
 
 ## Entregable 1
 
 - **Temas relacionados**: Semana 1 y 2
-  - Github
+  - Git
   - Microservicios
-  - RestAPIs
   - Kafka
-  - MongoDB
-  - Serverless
+  - Cloud
+  - Mongo
 
 ### Requerimientos y Criterio de Evaluación
 Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contemplar lo siguiente:
@@ -63,6 +60,8 @@ Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contem
 - **Temas relacionados**: Semana 3 y 4
   - Java
   - Spring Boot
+  - JUnit
+  - Clean Code
 ### Requerimientos y Criterio de Evaluación 
 Para poder considerar completadas las semanas 3 y 4 de entrenamiento debe contemplar lo siguiente:
 
@@ -111,36 +110,3 @@ Para poder considerar completadas las semanas 3 y 4 de entrenamiento debe contem
 | Exponer tres endpoints de Actuator (e.g. metrics, mappings, loggers)                        | 10          |
 | **Total**                                                                                   | **350**     |
 | **Mínimo aprobatorio**                                                                      | **280**     |
-
-## Entregable 3
-
-- **Temas relacionados**: Semana 5 y 6
-  - Spring Boot
-  - Integraciones (Docker, OpenAPI, Kafka)
-  - Patrones de Diseño
-  - JUnit
-  - SonarCloud
-
-### Requerimientos y Criterio de Evaluación 
-Para poder considerar completadas las semanas 5 y 6 de entrenamiento debe contemplar lo siguiente:
-
-| **Tópico**                                                                                                                            | **Puntaje** |
-|---------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Implementación de un Job con Spring Batch usando un Reader, un Processor y un Writer                                                  | 30          |
-| Uso de Dockerfile para desplegar la aplicación en un contenedor                                                                       | 10          |
-| Creación de contrato de API usando Swagger (OpenAPI) en un controlador                                                                | 20          |
-| Creación de un consumidor de Kafka                                                                                                    | 10          |
-| Creación de un productor de Kafka                                                                                                     | 10          |
-| Configuración de la comunicación entre productor y consumidor de Kafka                                                                | 20          |
-| Implementación de un patrón de diseño de creación                                                                                     | 30          |
-| Implementación de un patrón de diseño de comportamiento                                                                               | 30          |
-| Implementación del patrón de diseño "Throttling"                                                                                      | 10          |
-| Prueba unitaria de cada endpoint de la API                                                                                            | 20          |
-| Prueba unitaria de cada operación CRUD                                                                                                | 20          |
-| Uso de Mockito en cada prueba                                                                                                         | 10          |
-| Generación de logs por prueba                                                                                                         | 10          |
-| Pruebas para Happy Path                                                                                                               | 20          |
-| Pruebas para cada Edge Case                                                                                                           | 20          |
-| Implementación de JaCoCo o SonarCloud (mínimo 70% de cobertura)                                                                       | 30          |
-| **Total**                                                                                                                             | **300**     |
-| **Mínimo aprobatorio**                                                                                                                | **240**     |
