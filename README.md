@@ -104,7 +104,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/XsMeDCNFopD
 | `Rafael Hernández`         | - HOTONIEL MEZA HERNANDEZ <br/> - JUAN CARLOS ANDRES GONZALEZ <br/> - JAVIER ESTEBAN GÓMEZ TEJEDA| [Liga](https://calendly.com/rafael-hernandez-3012)|
 | `Braldo Montiel`         | - JOSE LUIS BARRIENTOS CERVANTES <br/> - EDWIN CARLOS CHAVEZ RIVERA <br/> - JOSE ANTONIO BRISEÑO TENORIO| [Liga]() |
 | `Juan García`         | - RICARDO ISIDRO RAFAEL PEREZ <br/> - JUAN MANUEL PINEDA AGUILERA <br/> - OSCAR RAMIREZ ZARRAGA| [Liga](https://calendly.com/garcia-jc) |
-
+| `Paco Ramírez Mojica`         | - JASON IRAN FLORES GONZALEZ <br/> - CESAR JOSE TORRES ESCOBAR | [Liga](https://calendly.com/paco-mojica/mentoria-baz?month=2023-05) |
 
 # VII. Contacto Wizeline DSA
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline DSA
