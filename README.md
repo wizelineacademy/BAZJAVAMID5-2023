@@ -103,7 +103,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/XsMeDCNFopD
 | `Álvaro Rodríguez`    | - CHARLY GIL NAVARRO  <br/> - GERMAN CABALLERO PALACIOS <br/> - JOSE CARLOS EMMANUEL GUZMAN GALEANA  | [Liga](https://calendly.com/arodez/baz-mentoria-1-1)
 | `Rafael Hernández`         | - HOTONIEL MEZA HERNANDEZ <br/> - JUAN CARLOS ANDRES GONZALEZ <br/> - JAVIER ESTEBAN GÓMEZ TEJEDA| [Liga](https://calendly.com/rafael-hernandez-3012)|
 | `Braldo Montiel`         | - JOSE LUIS BARRIENTOS CERVANTES <br/> - EDWIN CARLOS CHAVEZ RIVERA <br/> - JOSE ANTONIO BRISEÑO TENORIO| [Liga]() |
-| `Mentor 11`         | - RICARDO ISIDRO RAFAEL PEREZ <br/> - JUAN MANUEL PINEDA AGUILERA <br/> - OSCAR RAMIREZ ZARRAGA| [Liga]() |
+| `Juan García`         | - RICARDO ISIDRO RAFAEL PEREZ <br/> - JUAN MANUEL PINEDA AGUILERA <br/> - OSCAR RAMIREZ ZARRAGA| [Liga]() |
 
 
 # VII. Contacto Wizeline DSA
