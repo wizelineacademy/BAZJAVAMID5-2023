@@ -23,7 +23,7 @@ Bienvenido a tu capacitación de **Java Mid.**
 
 Importante unirse ya que toda la comunicación del curso se lleva por este medio.
 
-Calendario JAVA MID Bloque 5<br> <img width="948" alt="Screen Shot 2023-05-05 at 16 14 36" src="https://user-images.githubusercontent.com/114529977/236577358-a5723abc-d88d-487e-ad9b-68dd37d44f84.png">
+Calendario JAVA MID Bloque 5<br> <img width="716" alt="Screen Shot 2023-05-19 at 9 49 41" src="https://github.com/wizelineacademy/BAZJAVAMID5-2023/assets/114529977/e2a84369-a2a2-4b84-91e2-2986992b5ca1">
 
 
 # II. Información general del entrenamiento
