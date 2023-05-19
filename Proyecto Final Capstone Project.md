@@ -84,11 +84,12 @@ Para poder considerar completadas las semanas 3 y 4 de entrenamiento debe contem
 | Creación de un filtro HTTP                                                                  | 10          |
 | Creación de un Mono para procesar una operación                                             | 20          |
 | Creación de un Flux para procesar una operación                                             | 20          |
-| Integración con SonarCloud                                                                  | 10          |
+| Integración con SonarCloud                                                                  | 30          |
+| Creación de un pipeline de Jenkins para ejecutar pruebas                                    | 20          |
 | Uso de por lo menos un patrón de diseño del primer bloque (Adapter, Bridge o Composite)     | 30          |
 | Uso de por lo menos un patrón de diseño del segundo bloque (Decorator, Facade o Flyweight)  | 30          |
 | Uso de por lo menos un patrón de diseño del tercer bloque (Gateway/Proxy, Sagas)            | 30          |
 | Uso de por lo menos un patrón de diseño de arquitectura (MVC, MVVM)                         | 15          |
 | Uso de por lo menos un patrón de diseño de microservicios (Service Template, Chassis)       | 15          |
-| **Total**                                                                                   | **300**     |
-| **Mínimo aprobatorio**                                                                      | **240**     |
+| **Total**                                                                                   | **350**     |
+| **Mínimo aprobatorio**                                                                      | **280**     |
