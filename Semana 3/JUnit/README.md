@@ -1,112 +1,66 @@
 # Tipos de Datos
 
-# :hammer_and_wrench:  Requisitos
-- Java 11
-- IDE
-    * [Visual Studio Code](https://code.visualstudio.com/download)
-    * [IntelliJ](https://www.jetbrains.com/idea/download)
-- [Postman](https://www.postman.com/downloads/)
-- [json-20220320.jar](https://repo1.maven.org/maven2/org/json/json/20220320/)
+# Requisitos
+
+- Java 11 o superior
+- [IntelliJ](https://www.jetbrains.com/idea/download)
+- [Cuenta en sonarcloud](https://sonarcloud.io/)
+- Crear un nuevo repositorio en una cuenta personal con base al código de este ejercicio (carpeta demo)
 
 # :pencil: Actividad
-## Consultar información de una cuenta perteneciente a un usuario específico.
-> Esta actividad complementa la descrita en las clases anteriores: [README](https://github.com/wizelineacademy/BAZJAVA12022/tree/main/3/POO#readme)
-1. Generar una Clase de tipo **enum** con la que simularemos los tipos de cuenta.
-    ```java
-    public enum AccountType {
-        NOMINA, AHORRO, PLATINUM
-    }
-    ```
-   > Se recomienda crear un paquete para almacenar este tipo de datos. Ej. __package com.wizeline.enums;__
-   
-2. Generar un nuevo DTO que contenga la información de una cuenta de banco.
-   ```java
-    public class BankAccountDTO {
-    
-       private long accountNumber;
-       private String accountName;
-       private String user;
-       private double accountBalance;
-       private AccountType accountType;
-       private String country;
-       private boolean accountActive;
-   
-   }
-    ```
-   > Recuerda generar los getters y setters correspondientes a cada propiedad.
 
-3. Crear una interface dentro del directorio existente: __com.wizeline.BO__ con el metodo a implementar para obtener la información de la cuenta de un usuario.
-    ```java
-    public interface BankAccountBO {
-       BankAccountDTO getAccountDetails(String user);
-    }
-    ```
-   > El usuario de quien se quiere recuperar la información se envía como parámetro.
+## Configurar cuenta en SonarCloud
 
-4. Implementar la interface previamente creada, en cuya implementación se generara la información a consultar.
-   ```java
-    public class BankAccountBOImpl implements BankAccountBO{
+- Importar proyecto desde GitHub
+- Crear nueva organización si es necesario
+- Seleccionar el proyecto a importar (Dar permisos si es necesario, únicamente al proyecto que acaban de crear)
 
-    @Override
-    public BankAccountDTO getAccountDetails(String user) {
-        return buildBankAccount(user, true);
-    }
+Por defecto SonarCloud no permite tener proyectos privados, para efectos de este ejercicio vamos a manejar un proyecto público
 
-    // Creación de tipo de dato BankAccount
-    private BankAccountDTO buildBankAccount(String user, boolean isActive) {
-        BankAccountDTO bankAccountDTO = new BankAccountDTO();
-        bankAccountDTO.setAccountNumber(123L);
-        bankAccountDTO.setAccountName("Dummy Account");
-        bankAccountDTO.setUser(user);
-        bankAccountDTO.setAccountBalance(843.24);
-        bankAccountDTO.setAccountType(AccountType.NOMINA);
-        bankAccountDTO.setCountry("Mexico");
-        bankAccountDTO.setAccountActive(isActive);
-        return bankAccountDTO;
-    }
-   }
-    ```
-   > Crea un método privado que construira la información de la cuenta del usuario haciendo uso del DTO __(BankAccountDTO)__ previamente generado. Recuerda los valores que puede almacenar cada tipo de dato.
+- Ingresar al proyecto y en el menú lateral podrán ver “Information” allí encontrarán el “Project Key” y “Organization Key” (Se usarán más adelante)
+- Acceder a la opción del menú lateral “Administration” > “Analysis method” allí ingresar al enlace “With other CI tools” y obtener “SONAR_TOKEN”
+- Modificar el archivo build.gradle del proyecto y cambiar estas propiedades “sonar.projectKey” “sonar.organization” según corresponda
+- Agregar “SONAR_TOKEN” como variable de entorno
 
-5. Siguiendo el estilo existente en la clase principal __(LearningJava)__ genera un nuevo _context_ para manejar la solicitud y obtener los datos de una cuenta.
-   
-    ![Alt text](./images/createGetUserAccountContext.png "getUserAccount Context")
-    ```java
-    public class LearningJava {
-      /*
-              code....
-       */
-      private static BankAccountDTO getAccountDetails(String user) {
-        BankAccountBO bankAccountBO = new BankAccountBOImpl();
-        return bankAccountBO.getAccountDetails(user);
-      }
-      
-    }
-    ```
-    > Genera un método privado para hacer la invocación de la clase y método encargados de regresar la información de la cuenta. 
+## Configurar Jenkins
 
-# :computer: Requests
-``` bash
-curl --location --request GET 'http://localhost:8080/api/getUserAccount?user=user1@wizeline.com&password=Pass1'
+- Abrir un terminal y ubicarse en la carpeta donde estén guardando su ejercicio
+- Ejecutar los siguientes comandos
+
 ```
-# :bulb: Nota
-La petición anterior :point_up_2: se puede importar en Postman siemplemente copiando y pegandola en el apartado __Raw text__ que aparece despues de hacer clic en el boton de __importar__.
+docker pull jenkins/jenkins
+mkdir jenkins_home
+docker run -d -p 8080:8080 -p 50000:50000 -v $PWD/jenkins_home:/var/jenkins_home --name jenkins_container jenkins/jenkins
+```
 
-# :white_check_mark: Response
-```json
-{
-    "country": "Mexico",
-    "accountActive": true,
-    "accountName": "Dummy Account",
-    "accountType": "NOMINA",
-    "accountNumber": 123,
-    "accountBalance": 843.24,
-    "user": "user1@wizeline.com"
-}
-``` 
+- Obtener la clave de acceso a jenkins ejecutando
+
+```
+docker exec jenkins_container cat /var/jenkins_home/secrets/initialAdminPassword
+```
+
+- Acceder a http://localhost:8080 y pegar el valor obtenido, con esto ya hay acceso a jenkins
+- Una vez abierto jenkins instalar los plugins Git, SonarQube Scanner, Pipeline (Manage Jenkins > plugins)
+- Reiniciar Jenkins (detener y volver a iniciar el contenedor de docker)
+- Agregar credencial “SONAR_TOKEN” (Manage Jenkins > credential)
+
+## Crear el pipeline
+
+- En el menu lateral acceder a “New Item” y seleccionar pipeline
+- Se abrirán las opciones de configuración y en la sección pipeline en definition seleccionar "Pipeline script from SCM"
+- En SCM seleccionar Git(Si no se ha instalado el plugin de Git no va a ser visible esta opción)
+- Especificar la rama en la que están trabajando o a la que le quieren configurar el pipeline
+- En la sección Script Path colocar “Jenkinsfile” (Apunta a su archivo de Jenkins en el proyecto en la carpeta raíz).
+
+En este punto ya deberían ver en el dashboard de jenkins el pipeline que acaban de crear.
+
+## Ejecutar el pipeline
+
+- Acceder al pipeline podrán ver un menú lateral en donde está la opción "Build Now", esta opción les permitirá ejecutar el pipeline
+
+El objetivo de este ejercicio es aprender a como configurar un pipeline con Jenkins y SonarCloud como parte de un ejercicio típico de Integración continua en la que basandose en un archivo de jenkins va a ser posible ejecutar las pruebas que realicen en su código de forma automática. Es una buena práctica ya que el fin de las pruebas es demostrar el funcionamiento esperado del código en algunos escenarios. Así se asegura que la implementación de nuevos features o refactors en el código no van a dañar la funcionalidad actual.
 
 # :books: Recursos
-- [The Java® Language Specification](https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html)
-- [Learning Java, 4th Edition by Patrick Niemeyer, Daniel Leuck](https://www.oreilly.com/library/view/learning-java-4th/9781449372477/ch10s02.html)
-- [Java For Dummies Quick Reference](https://www.oreilly.com/library/view/java-for-dummies/9781118239742/a83.html)
-- [Primitive and Reference Types in Java with Examples](https://www.swtestacademy.com/primitive-and-reference-types-in-java/)
+
+- [Inicio de sesión en SonarCloud](https://www.sonarsource.com/products/sonarcloud/signup/)
+- [Jenkins Extension for SonarCloud](https://docs.sonarcloud.io/advanced-setup/ci-based-analysis/jenkins-extension-for-sonarcloud/)
