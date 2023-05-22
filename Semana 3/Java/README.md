@@ -58,7 +58,7 @@ Importar nuestro módulo, instanciar un objeto de una clase e inspeccionar sus f
  
  Copie y pegue el siguiente código dentro de la clase Persona:
 
-```
+```java
     public Persona(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
@@ -83,7 +83,7 @@ Importar nuestro módulo, instanciar un objeto de una clase e inspeccionar sus f
 
 7. Nos vamos a nuestro archivo Main.java y creamos un objeto de la clase Persona:
 
-```
+```java
     import baz.Persona;
 
 public class Main {
@@ -99,7 +99,7 @@ public class Main {
 
 8. Utilizando refleccion vamos a analizar la propiedad nombre de nuestra clase Persona. Copie y pegue la función inspeccionaVaribaleRefleccion e invoquela enviándole el objeto creado de la clase Persona y la propiedad nombre:
 
-```
+```java
   public static void inspeccionaVariableRefleccion(Persona p, String field) {
         try {
             Class<? extends Persona> extraerInformacionPersona = p.getClass();
@@ -126,7 +126,7 @@ public class Main {
 
 9. Por último, utilizando refleccion vamos a analizar el metodo getNombre de nuestra clase Persona. Copie y pegue la función inspeccionaMetodoRefleccion e invoquela enviándole el objeto creado de la clase Persona y el nombre de método getNombre:
 
-```
+```java
   public static void inspeccionaMetodoRefleccion(Persona p, String m) {
         try {
             Class<? extends Persona> extraerInformacionPersona = p.getClass();
