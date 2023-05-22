@@ -160,8 +160,8 @@ public class Main {
 # :books: Para aprender mas
 * [Java](https://dev.java)
 * [Java Modules](https://www.adictosaltrabajo.com/2017/10/30/modularidad-en-java-9-12/)
-* [Reflective Programming](https://dev.java](https://en.wikipedia.org/wiki/Reflective_programming)
-* [Java Reflection](https://dev.java](https://jarroba.com/reflection-en-java/)
+* [Reflective Programming](https://en.wikipedia.org/wiki/Reflective_programming)
+* [Java Reflection](https://jarroba.com/reflection-en-java/)
 * [Java Documentation](https://docs.oracle.com/en/java/)
 * [Learn Java](https://dev.java/learn/)
 * [Frequently Asked Questions (FAQs)](https://dev.java/learn/faq/)
