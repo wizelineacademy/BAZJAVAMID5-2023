@@ -20,7 +20,7 @@ Importar nuestro módulo, instanciar un objeto de una clase e inspeccionar sus f
 
 ### A continuación, se listaran los pasos para a seguir para la actividad de este módulo.
 
-1. Comenzamos abriendo nuestro IntelliJ y vamos a la opción de crear nuevo proyecto Java llamado ModulosReflexion.
+1. Comenzamos abriendo nuestro IntelliJ y vamos a la opción de crear nuevo proyecto Java llamado ModulosRefleccion.
 
 ![Alt text](./Images/1.CreateProject.png "Creación de Proyecto Java")
 
@@ -152,6 +152,10 @@ public class Main {
         }
     }
 ```
+
+![Alt text](./Images/9.inspeccionaMetodoRefleccion.png "Inspeccionando el Metodo con refleccion")
+
+
 
 # :books: Para aprender mas
 * [Java](https://dev.java)
