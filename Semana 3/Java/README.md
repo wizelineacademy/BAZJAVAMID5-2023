@@ -14,13 +14,13 @@ Una vez que JDK y Intellij fue descargados e instalados, procederemos a validar 
 
 Creación de Módulo, Paquetes, Clases, exportadores y privados.
 
-### refleccion
+### Reflexión
 
-Importar nuestro módulo, instanciar un objeto de una clase e inspeccionar sus funciones y propiedades mediante refleccion
+Importar nuestro módulo, instanciar un objeto de una clase e inspeccionar sus funciones y propiedades mediante reflexión
 
 ### A continuación, se listaran los pasos para a seguir para la actividad de este módulo.
 
-1. Comenzamos abriendo nuestro IntelliJ y vamos a la opción de crear nuevo proyecto Java llamado ModulosRefleccion.
+1. Comenzamos abriendo nuestro IntelliJ y vamos a la opción de crear nuevo proyecto Java llamado ModulosReflexion.
 
 ![Alt text](./Images/1.CreateProject.png "Creación de Proyecto Java")
 
@@ -43,7 +43,7 @@ Importar nuestro módulo, instanciar un objeto de una clase e inspeccionar sus f
 
 ![Alt text](./Images/5.ClasePersona.png "Creación de la clase Persona")
 
-6. Para ser su retroinspección mediante refleccion, la clase Persona tendrá la siguiente composición:
+6. Para ser su retroinspección mediante reflexión, la clase Persona tendrá la siguiente composición:
 
 ### Propiedades.
 
@@ -97,10 +97,10 @@ public class Main {
 ![Alt text](./Images/7.CodigoMain.png "Código de Main")
 
 
-8. Utilizando refleccion vamos a analizar la propiedad nombre de nuestra clase Persona. Copie y pegue la función inspeccionaVaribaleRefleccion e invoquela enviándole el objeto creado de la clase Persona y la propiedad nombre:
+8. Utilizando reflexión vamos a analizar la propiedad nombre de nuestra clase Persona. Copie y pegue la función inspeccionaVaribaleReflexión e invoquela enviándole el objeto creado de la clase Persona y la propiedad nombre:
 
 ```java
-  public static void inspeccionaVariableRefleccion(Persona p, String field) {
+  public static void inspeccionaVariableReflexion(Persona p, String field) {
         try {
             Class<? extends Persona> extraerInformacionPersona = p.getClass();
             Field varNombre = extraerInformacionPersona.getDeclaredField(field);
@@ -124,10 +124,10 @@ public class Main {
 
 ![Alt text](./Images/8.InspeccionandoPropiedadNombre.png "Inspeccionando Propiedad Nombre")
 
-9. Por último, utilizando refleccion vamos a analizar el metodo getNombre de nuestra clase Persona. Copie y pegue la función inspeccionaMetodoRefleccion e invoquela enviándole el objeto creado de la clase Persona y el nombre de método getNombre:
+9. Por último, utilizando reflexión vamos a analizar el metodo getNombre de nuestra clase Persona. Copie y pegue la función inspeccionaMetodoReflexion e invoquela enviándole el objeto creado de la clase Persona y el nombre de método getNombre:
 
 ```java
-  public static void inspeccionaMetodoRefleccion(Persona p, String m) {
+  public static void inspeccionaMetodoReflexion(Persona p, String m) {
         try {
             Class<? extends Persona> extraerInformacionPersona = p.getClass();
             Method metodo = extraerInformacionPersona.getMethod(m);
@@ -153,7 +153,7 @@ public class Main {
     }
 ```
 
-![Alt text](./Images/9.inspeccionaMetodoRefleccion.png "Inspeccionando el Metodo con refleccion")
+![Alt text](./Images/9.inspeccionaMetodoRefleccion.png "Inspeccionando el Metodo con reflexión")
 
 
 
