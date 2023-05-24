@@ -5,7 +5,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Lunes 22 Mayo - GIT](https://drive.google.com/file/d/1vzvmHxX6dvEaBsoSHXTCaOlJBRXA1ATx/view?usp=sharing)
 - 📺 [Grabación Lunes 22 Mayo](https://drive.google.com/file/d/1zx18TRIP4kQ2RmAYZGXaMICP9Vr7bwjt/view?usp=sharing)
 - [Martes 23 Mayo - Microservicios](https://drive.google.com/file/d/1-H6MBqMNY9BB4WbiKGwVtt_PyZqRQI4c/view?usp=sharing)
-- 📺 [Grabación Martes 23 Mayo ]()
+- 📺 [Grabación Martes 23 Mayo ](https://drive.google.com/file/d/1-NeQ9lEds8sqOkrCKocbioTIRWBnQs5K/view?usp=sharing)
 - [Miércoles 24 Mayo - Kafka](https://drive.google.com/file/d/14u8koj7VuypDJqMUXZ611thSgr16Sxbd/view?usp=sharing)
 - 📺 [Grabación Miércoles 24 Mayo]()
 
