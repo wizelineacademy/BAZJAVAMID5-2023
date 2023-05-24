@@ -44,20 +44,25 @@ Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contem
 | Screenshots para el flujo de creación de ramas: `git branch`, `git checkout`, `git switch`                                          | 10          |
 | Screenshots para el flujo de unión de ramas: `git merge`                                                                            | 10          |
 | Screenshots para el flujo de almacenamiento de ramas: `git stash`                                                                   | 10          |
-| Dockerfile ejecutable                                                                                                               | 10          |
-| Archivo de Docker Compose que permita levantar el contendor                                                                         | 10          |
-| Pod de Kubernetes desplegando el contenedor                                                                                         | 10          |
-| Tópicos replicados de Kafka                                                                                                         | 10          |
+| Screenshot de la imagen interactiva de Docker                                                                                       | 10          |
+| Screenshot de la creación del volumen de mysql de Docker                                                                            | 10          |
+| Screenshot de la creación de una red tipo bridge con 2 contenedores dentro de esa misma red (ej. Thor y Spider-man)                 | 10          |
+| Screenshot del deployment en k8s (kubernetes)                                                                                       | 10          |
+| Screenshot de la creación de un topico con factor de replicacion de 5                                                               | 10          |
+| Screenshot de la creación de otro broker de kafka                                                                                   | 10          |
+| Screenshot de la creación de un cluster de 3 brokers (3 brokers corriendo)                                                          | 10          |
+| Screenshot de envio y recepción de mensajes entre productor y consumidor                                                            | 10          |
 | Captura de pantalla de la instancia en EC2                                                                                          | 10          |
 | Captura de pantalla de ECS                                                                                                          | 10          |
 | Captura de pantalla del bucket de S3                                                                                                | 10          |
 | Captura de pantalla de la base de datos de DynamoDB                                                                                 | 10          |
 | Captura de pantalla de la cola de SQS                                                                                               | 10          |
-| Base de datos de MongoDB exportada                                                                                                  | 10          |
+| Captura de pantalla aplicando el Aggregation Framework                                                                              | 10          |
 | Captura de pantalla del GUI Client                                                                                                  | 10          |
 | Captura de pantalla de la base de datos replicada                                                                                   | 10          |
-| **Total**                                                                                                                           | **150**     |
-| **Mínimo Aprobatorio**                                                                                                              | **120**     |
+| Captura de pantalla generando un usuario habilidatando la seguridad                                                                 | 10          |
+| **Total**                                                                                                                           | **200**     |
+| **Mínimo Aprobatorio**                                                                                                              | **160**     |
 
 
 ## Entregable 2
