@@ -108,10 +108,12 @@ y validamos de nuevo como se comporta el topico de nuevo
 Para crear un **topic** con `particiones` en especifico + `replication factor`
 ```bash
 # Mac/Linux
-bin/kafka-topics.sh --create --topic <topic-name> --partitions <#_particiones> --bootstrap-server localhost:<kafka-server-port>
+bin/kafka-topics.sh --create --topic <topic-name> --partitions <no_particiones> --replication-factor <no_replicacion> 
+--bootstrap-server localhost:<kafka-server-port>
 
 # Windows
-.\bin\windows\kafka-topics.bat --create --topic <topic-name> --partitions <#_particiones> --bootstrap-server localhost:<kafka-server-port> --replication-factor <#_replicacion>
+.\bin\windows\kafka-topics.bat --create --topic <topic-name> --partitions <no_particiones> --replication-factor <no_replicacion>
+--bootstrap-server localhost:<kafka-server-port> 
 ```
 
 ### Generar Multiples Brokers en Kafka
@@ -163,19 +165,19 @@ Finalmente generamos un cluster de Kafka con 3 brokers (el broker default, broke
 ### Configurar Retencion por Tamaño y Tiempo
 ```bash
 # Mac/Linux
-bin/kafka-configs.sh --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name configured-topic --add-config retention.ms=-1,retention.bytes=524288000
+bin/kafka-configs.sh --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name <topic> --add-config retention.ms=-1,retention.bytes=524288000
 
 # Windows
-.\bin\windows\kafka-configs.bat --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name configured-topic --add-config retention.ms=-1,retention.bytes=524288000
+.\bin\windows\kafka-configs.bat --bootstrap-server localhost:<port> --alter --entity-type <topic> --entity-name configured-topic --add-config retention.ms=-1,retention.bytes=524288000
 ```
 
-### Configurar o modificar factor de replicación (in-sync replicas)
+### Configurar o modificar minimo de factor de replicación para `ack=all` (in-sync replicas)
 ```bash
 # Mac/Linux
-bin/kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic_name> --add-config min.insync.replicas=<#_replicas>
+bin/kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type <topic> --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
 
 # Windows
-.\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic_name> --add-config min.insync.replicas=<#_replicas>
+.\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --alter --entity-type <topic> --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
 ```
 
 ### Escribir eventos en el TOPIC [Opcional]
