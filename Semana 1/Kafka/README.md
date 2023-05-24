@@ -208,6 +208,7 @@ Añadir la flag `--from-beginning` despues del nombre del topic
 .\bin\windows\kafka-console-consumer.bat --topic <topic-name> --from-beginning --bootstrap-server localhost:<kafka-server-port>
 ```
 
+Ejemplo de como se visualiza Kafka
 ![Alt text](./img/kafka_zookeeper_diagram.png "Kafka & Zookeeper Diagram")
 
 
