@@ -103,7 +103,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/XsMeDCNFopD
 | `Daniel Jiménez`  | - CESAR AUGUSTO GARCIA ALONSO  <br/> - ADAM FRANCISCO HERNANDEZ RETAMA <br/> - GUILLERMO RAMOS FLORES | [Liga](https://calendly.com/daniel-a-jimenez/baz-mentoria)
 | `Álvaro Rodríguez`    | - CHARLY GIL NAVARRO  <br/> - GERMAN CABALLERO PALACIOS <br/> - JOSE CARLOS EMMANUEL GUZMAN GALEANA  | [Liga](https://calendly.com/arodez/baz-mentoria-1-1)
 | `Rafael Hernández`         | - HOTONIEL MEZA HERNANDEZ <br/> - JUAN CARLOS ANDRES GONZALEZ <br/> - JAVIER ESTEBAN GÓMEZ TEJEDA| [Liga](https://calendly.com/rafael-hernandez-3012)|
-| `Braldo Montiel`         | - JOSE LUIS BARRIENTOS CERVANTES <br/> - EDWIN CARLOS CHAVEZ RIVERA <br/> - JOSE ANTONIO BRISEÑO TENORIO| [Liga](https://calendly.com/braldo-montiel) |
+| `Braldo Montiel`         | - EDWIN CARLOS CHAVEZ RIVERA <br/> - JOSE ANTONIO BRISEÑO TENORIO| [Liga](https://calendly.com/braldo-montiel) |
 | `Juan García`         | - RICARDO ISIDRO RAFAEL PEREZ <br/> - JUAN MANUEL PINEDA AGUILERA <br/> - OSCAR RAMIREZ ZARRAGA| [Liga](https://calendly.com/garcia-jc) |
 | `Paco Ramírez Mojica`         | - JASON IRAN FLORES GONZALEZ <br/> - CESAR JOSE TORRES ESCOBAR | [Liga](https://calendly.com/paco-mojica/mentoria-baz?month=2023-05) |
 
