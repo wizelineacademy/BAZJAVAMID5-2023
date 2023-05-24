@@ -94,7 +94,7 @@ Recuerda llenar el [Formato de Retroalimentación](https://forms.gle/XsMeDCNFopD
 
 | Mentor               | Mentee                          |  Liga para agendar mentoria                |
 |----------------------|---------------------------------|--------------------------------------------|
-| `Marco Robles`       | - FRANCISCO JAVIER GRAJEDA HERNANDEZ   <br/> - ANGEL ISAI ZAVALA CANO <br/> - ROGELIO MARTIN PEREZ CHAVEZ | [Liga](https://calendly.com/marco-robles-wize/60min?month=2023-05) |
+| `Marco Robles`       | - ANGEL ISAI ZAVALA CANO <br/> - ROGELIO MARTIN PEREZ CHAVEZ | [Liga](https://calendly.com/marco-robles-wize/60min?month=2023-05) |
 | `Walter Franco`      | - JOSUE ELI PEREZ MORALES  <br/> - DANIEL DE JESUS GARCIA LABASTIDA  <br> -  ERICK DE JESUS GARCIA PEREZ  | [Liga](https://calendly.com/walter-franco-24/baz-franco)
 | `Walter Gómez`       | - ANGEL PALOALTO PARRA <br/> - DAVID OSVALDO DE LOS SANTOS LOPEZ <br/> - DANIEL LOPEZ GUADARRAMA | [Liga](https://calendly.com/walter-gomez-wizeline)
 | `Gerardo Ruiz`       | - FERNANDO PONCIANO SARMINA <br/> -  GONZALO FERNANDO CORTINA CARDOSO <br>  | [Liga](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) |
