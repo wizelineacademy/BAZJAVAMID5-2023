@@ -168,16 +168,16 @@ Finalmente generamos un cluster de Kafka con 3 brokers (el broker default, broke
 bin/kafka-configs.sh --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name <topic> --add-config retention.ms=-1,retention.bytes=524288000
 
 # Windows
-.\bin\windows\kafka-configs.bat --bootstrap-server localhost:<port> --alter --entity-type <topic> --entity-name configured-topic --add-config retention.ms=-1,retention.bytes=524288000
+.\bin\windows\kafka-configs.bat --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name configured-topic --add-config retention.ms=-1,retention.bytes=524288000
 ```
 
 ### Configurar o modificar minimo de factor de replicación para `ack=all` (in-sync replicas)
 ```bash
 # Mac/Linux
-bin/kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type <topic> --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
+bin/kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
 
 # Windows
-.\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --alter --entity-type <topic> --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
+.\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
 ```
 
 ### Escribir eventos en el TOPIC [Opcional]
