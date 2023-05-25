@@ -7,7 +7,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 23 Mayo - Microservicios](https://drive.google.com/file/d/1-H6MBqMNY9BB4WbiKGwVtt_PyZqRQI4c/view?usp=sharing)
 - 📺 [Grabación Martes 23 Mayo ](https://drive.google.com/file/d/1-NeQ9lEds8sqOkrCKocbioTIRWBnQs5K/view?usp=sharing)
 - [Miércoles 24 Mayo - Kafka](https://drive.google.com/file/d/14u8koj7VuypDJqMUXZ611thSgr16Sxbd/view?usp=sharing)
-- 📺 [Grabación Miércoles 24 Mayo]()
+- 📺 [Grabación Miércoles 24 Mayo](https://drive.google.com/file/d/1VXm_3KaAyBxixbKP-d--m_oKXxcBejtD/view?usp=share_link)
 
 # Semana 2
 - [Lunes 29 Mayo - Cloud]()
