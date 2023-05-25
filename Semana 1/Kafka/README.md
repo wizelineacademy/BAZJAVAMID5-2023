@@ -148,7 +148,7 @@ Replicamos los pasos anteriores para generar otro broker, modificando los datos 
 - `log.dirs=<path_para_los_logs_del_broker_2>`
 
 ### Inicializar los nuevos brokers
-> Nota: Se debe tner corriendo el broker default de Kafka y el Zookeeper
+> Nota: Se debe tener corriendo el broker default de Kafka y el Zookeeper
 
 - Inicializamos el primer broker
 ```bash
@@ -168,16 +168,16 @@ Finalmente generamos un cluster de Kafka con 3 brokers (el broker default, broke
 bin/kafka-configs.sh --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name <topic> --add-config retention.ms=-1,retention.bytes=524288000
 
 # Windows
-.\bin\windows\kafka-configs.bat --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name configured-topic --add-config retention.ms=-1,retention.bytes=524288000
+.\bin\windows\kafka-configs.bat --bootstrap-server localhost:<port> --alter --entity-type topics --entity-name <topic> --add-config retention.ms=-1,retention.bytes=524288000
 ```
 
 ### Configurar o modificar minimo de factor de replicación para `ack=all` (in-sync replicas)
 ```bash
 # Mac/Linux
-bin/kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
+bin/kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic> --add-config min.insync.replicas=<no_replicas>
 
 # Windows
-.\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic_name> --add-config min.insync.replicas=<no_replicas>
+.\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <topic> --add-config min.insync.replicas=<no_replicas>
 ```
 
 ### Escribir eventos en el TOPIC [Opcional]
