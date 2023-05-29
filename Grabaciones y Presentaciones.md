@@ -10,11 +10,10 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabación Miércoles 24 Mayo](https://drive.google.com/file/d/1VXm_3KaAyBxixbKP-d--m_oKXxcBejtD/view?usp=share_link)
 
 # Semana 2
-- [Lunes 29 Mayo - Cloud]()
+- [Lunes 29 Mayo - Cloud](https://drive.google.com/file/d/1yXVIedop2B4swbbdO9VyYyq6ug_pc39i/view?usp=sharing)
 - 📺 [Grabación Lunes 29 Mayo]()
 - [Martes 30 Mayo - MongoDB Parte 1]()
 - 📺 [Grabación Martes 30 Mayo ]()
-- [Miércoles 31 Mayo - MongoDB Parte 2]()
 - 📺 [Grabación Miércoles 31 Mayo]()
 
 # Semana 3
