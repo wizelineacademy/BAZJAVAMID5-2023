@@ -12,7 +12,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 # Semana 2
 - [Lunes 29 Mayo - Cloud](https://drive.google.com/file/d/1yXVIedop2B4swbbdO9VyYyq6ug_pc39i/view?usp=sharing)
 - 📺 [Grabación Lunes 29 Mayo]()
-- [Martes 30 Mayo - MongoDB Parte 1]()
+- [Martes 30 Mayo - MongoDB](https://drive.google.com/file/d/1ZefLbABVIYMVhP8LqyhlQIwKZ0moPPIm/view?usp=sharing)
 - 📺 [Grabación Martes 30 Mayo ]()
 - 📺 [Grabación Miércoles 31 Mayo]()
 
