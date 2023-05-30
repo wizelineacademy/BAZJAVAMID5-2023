@@ -57,7 +57,7 @@ Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contem
 | Captura de pantalla del bucket de S3                                                                                                | 10          |
 | Captura de pantalla de la base de datos de DynamoDB                                                                                 | 10          |
 | Captura de pantalla de la cola de SQS                                                                                               | 10          |
-| Captura de pantalla aplicando el Aggregation Framework                                                                              | 10          |
+| Captura de pantalla aplicando el Aggregation Framework  (5 ejercicios)                                                                            | 10          |
 | Captura de pantalla del GUI Client                                                                                                  | 10          |
 | Captura de pantalla de la base de datos replicada                                                                                   | 10          |
 | Captura de pantalla generando un usuario habilidatando la seguridad                                                                 | 10          |

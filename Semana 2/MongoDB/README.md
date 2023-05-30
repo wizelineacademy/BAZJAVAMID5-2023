@@ -87,6 +87,156 @@ db.proyectos.updateMany( { presupuesto: { $ne: 100 } }, { $set: { presupuesto: 1
    * Eliminar documentos filtrados
 ``` db.proyectos.deleteMany({ cantidad: 1 }) ```
 
+### Aggregation Pipeline
+Primero creamos una nueva DB por nombre `BAZ-Project`
+
+Crearemos una colección por nombre `employees` y agregaremos los siguientes registros
+
+```js
+db.employees.insertMany([
+    { 
+        _id:1,
+        firstName: "John",
+        lastName: "King",
+        gender:'male',
+        email: "john.king@abc.com",
+        salary: 5000,
+        department: { 
+                    "name":"HR" 
+                }
+    },
+    { 
+        _id:2,
+        firstName: "Sachin",
+        lastName: "T",
+        gender:'male',
+        email: "sachin.t@abc.com",
+        salary: 8000,
+        department: { 
+                    "name":"Finance" 
+                }
+    },
+    { 
+        _id:3,
+        firstName: "James",
+        lastName: "Bond",
+        gender:'male',
+        email: "jamesb@abc.com",
+        salary: 7500,
+        department: { 
+                    "name":"Marketing" 
+                }
+    },
+    { 
+        _id:4,
+        firstName: "Rosy",
+        lastName: "Brown",
+        gender:'female',
+        email: "rosyb@abc.com",
+        salary: 5000, 
+        department: { 
+                    "name":"HR" 
+                }
+
+    },
+    { 
+        _id:5,
+        firstName: "Kapil",
+        lastName: "D",
+        gender:'male',
+        email: "kapil.d@abc.com",
+        salary: 4500,
+        department: { 
+                    "name":"Finance" 
+                }
+
+    },
+    { 
+        _id:6,
+        firstName: "Amitabh",
+        lastName: "B",
+        gender:'male',
+        email: "amitabh.b@abc.com",
+        salary: 7000,
+        department: { 
+                    "name":"Marketing" 
+                }
+    }
+])
+```
+
+#### Uso de `$match Stage`
+`$match` es usado principalmente para seleccionar solo los documentos que hagan `match` dentro de una colección. Equivalente al metodo `find()`.
+```js
+db.employees.aggregate([ {$match:{ gender: 'female'}} ])
+```
+
+#### Uso de `$group Stage`
+`$group` se usa para agrupar los documentos que sean especificados por el `_id` y devuelve un solo documento que contiene valores acumulados para cada grupo distinto.
+```js
+// El campo $grouputiliza _idpara calcular los valores acumulados de todos los documentos de entrada en su conjunto. La expresión { _id:'$department.name'}crea el grupo diferenciado en el campo $department.name. Como no calculamos ningún valor acumulado, devuelve los distintos valores de $department.name, como se muestra a continuación.
+db.employees.aggregate([ 
+    { $group:{ _id:'$department.name'} }
+])
+
+// Calculemos los valores acumulados para cada grupo. Ej. calcular el número de empleados en cada departamento
+db.employees.aggregate([ 
+    { $group:{ _id:'$department.name', totalEmployees: { $sum:1 } } 
+}])
+```
+La siguiente pipeline de agregación contiene dos etapas:
+```js
+db.employees.aggregate([ 
+    { $match:{ gender:'male'}}, 
+    { $group:{ _id:'$department.name', totalEmployees: { $sum:1 } } 
+}])
+```
+En el ejemplo anterior, la primera etapa selecciona a todos los empleados varones y los pasa como entrada a la segunda etapa $groupcomo entrada. Entonces, la salida calcula la suma de todos los empleados varones.
+
+Calcular la suma de los salarios de todos los empleados varones en el mismo departamento.
+```js
+db.employees.aggregate([ 
+    { $match:{ gender:'male'}}, 
+    { $group:{ _id:{ deptName:'$department.name'}, totalSalaries: { $sum:'$salary'} } 
+}])
+```
+En el ejemplo anterior, `{ $match:{ gender:'male'}}` devuelve todos los empleados varones. En la `$group stage`, tenemos una expresión de acumulador `totalSalaries: { $sum:'$salary'}` suma el campo numérico `salary` y lo incluye como `totalSalaries` en la salida de cada grupo.
+
+#### Uso de `$sort Stage`
+
+El `$sort` stage se usa para clasificar los documentos según el campo especificado en orden ascendente o descendente.
+
+```js
+db.employees.aggregate([
+    { $match:{ gender:'male'}}, 
+    { $sort:{ firstName:1}}
+])
+```
+En el ejemplo anterior, el `$match` stage devuelve todos los empleados masculinos y pasa a la siguiente etapa `$sort`. La `{ $sort:{ firstName:1}}` expresión ordena los documentos de entrada por `firstName` campo en orden ascendente. El `1` indica el orden ascendente y `-1` indica el orden descendente.
+
+La siguiente pipeline contiene tres etapas para ordenar los documentos agrupados:
+```js
+ db.employees.aggregate([
+    { $match:{ gender:'male'}}, 
+    { $group:{ _id:{ deptName:'$department.name'}, totalEmployees: { $sum:1} } },
+    { $sort:{ deptName:1}}
+])
+```
+Por lo tanto, puede usar el aggregation pipeline para obtener los documentos requeridos de la colección.
+
+
+## Ejercicio de Aggregation Pipeline
+
+Tomando como base el archivo `aggregation_excercise.json` e importandolo y creando la colección de `Movies` dentro de la base de datos, contesta lo siguiente:
+
+```
+1. Encuentra la pelicula con el rate mas alto por cada director
+2. Encuentra el numero de peliculas dirijidas por cada director
+3. Encuentra la pelicula con el rating mas alto, donde Ricky sea el director y Tom Hanks sea uno de los actores.
+4. ¿Cuantas peliculas protagonizo Tom Hanks?
+5. Muestra la lista de todos los actores que trabajaron con el director Jon What.
+```
+
 ### Modelos y esquemas
 Referencia: [MongoDB Arquitectura y modelo de datos](https://sitiobigdata.com/2017/12/27/mongodb-arquitectura-y-modelo-de-datos/#:~:text=Modelo%20de%20datos%20MongoDB)
 ### Índices
