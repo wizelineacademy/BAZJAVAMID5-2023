@@ -1,339 +1,656 @@
 # :tv: Video y Presentacion
-- [TBD]
-- [TBD]
-- [TBD]
-# Spring Security
+Videos
+- Patrones de Diseño [TBD]
+- Patrones Arquitecónicos [TBD]
+- Patrones para Microservicios [TBD]
+
+Presentación
+
+- [Design Patterns II](https://docs.google.com/presentation/d/1SlG0b5ykQRk0Tbs1OAukqxFy9u3H8q6e62vfUoL7cl8/edit#slide=id.g24883409b0c_0_220)
+
+# Clean Code - Patrones de Diseño II
+  * [Requisitos](#hammerandwrench-requisitos)
+  * [Ejercicio Adapter](#pencil-patrón-adaptador)
+  * [Ejercicio Bridge](#pencil-patrón-bridge)
+  * [Ejercicio Composite](#pencil-patrón-composite)
+  * [Ejercicio Decorator](#pencil-patrón-decorator)
+  * [Ejercicio Facade](#pencil-patrón-facade)
+  * [Ejercicio Flyweight](#pencil-patrón-flyweight)
+  * [Ejercicio Proxy](#pencil-patrón-proxy)
+
+
 # :hammer_and_wrench:  Requisitos
-- Java 11
+- Compilador
+   * Java 11 o superior
 - IDE
-    * [Visual Studio Code](https://code.visualstudio.com/download)
     * [IntelliJ](https://www.jetbrains.com/idea/download)
-- [Postman](https://www.postman.com/downloads/)
 
-# :pencil: Actividad
-> Esta actividad toma como base la última versión del proyecto **LearningJava**
-## Habilitar Spring Security
-1. Lo primero que tenemos que realizar es agregar las dependencias de _Spring Security_ y _JWT_ en el archivo pom de nuestro proyecto.
+# :pencil: Patrón Adaptador
 
-    ![img.png](images/spring-security-dependency.png)
-    > La dependencia de Swagger no es necesario agregarla para habilitar Spring Security, sin embargo, nos puede ser de mucha utilidad y facilitarnos la documentación y gestión de proyectos.
-      En el apartado de recursos se proporciona documentación para su mejor entendimiento.
-2. Generar clase de configuración de _JWT_ con los métodos para generar y validar el token de autenticación.
-    ```java
-   @Component
-   public class JwtTokenConfig {
-   
-   private static final Logger LOGGER = LoggerFactory.getLogger(JwtTokenConfig.class);
+Primero vamos a crear el conjunto de clases que nos proporcionará el escenario para la implementación del patrón Adaptador.
 
+Crear clase Linea con un método draw público que reciba 4 variables
 
-   @Value("${jwt.secret}")
-   private String secret;
-   
-   /**
-     * Este método genera el token de autenticación.
-     * @param userDTO Información del usuario autenticado.
-     * @param claims Información adicional del usuario que se agrega al token.
-     * @return Regresa el token de autenticación.
-     */
-    public String generateToken(UserDTO userDTO, Claims claims) {
-        return Jwts.builder()
-                .setSubject(userDTO.getUser())
-                .setIssuedAt(new Date())
-                .setClaims(claims)
-                .setExpiration(Date.from(ZonedDateTime.now().plusMinutes(5).toInstant()))
-                .signWith(SignatureAlgorithm.HS512, secret).compact();
+    x1 : Coordenada X del punto 1
+    y1 : Coordenada Y del punto 1
+    x2 : Coordenada X del punto 2
+    y2 : Coordenada Y del punto 2
+
+La función draw deberá imprima en consola el mensaje 
+
+    "Linea del punto A(x1,y2), al punto B(x2,y2)" 
+
+```java
+class Line {
+    public void draw(int x1, int y1, int x2, int y2) {
+        System.out.println("Linea del punto A("+ x1 + "," + y1 +"), al punto B(" + x2 + "," + y2 + ")");
     }
-   
-   /**
-     * Validación del token utilizado durante la autenticación.
-     * @param token Token de autenticación.
-     * @return Regresa verdadero o falso dependiendo si es un token válido.
-     */
-    public boolean validateAccessToken(String token) {
-        try {
-            Jwts.parser().setSigningKey(secret).parseClaimsJws(token);
-            return true;
-        } catch (ExpiredJwtException ex) {
-            LOGGER.error("JWT Token expirado", ex.getMessage());
-        } catch (IllegalArgumentException ex) {
-            LOGGER.error("Token es null o vacío", ex.getMessage());
-        } catch (MalformedJwtException ex) {
-            LOGGER.error("JWT no valido", ex);
-        } catch (UnsupportedJwtException ex) {
-            LOGGER.error("JWT no soportado", ex);
-        } catch (SignatureException ex) {
-            LOGGER.error("Falló la validación de la firma");
-        }
-            return false;
-        }
-   }
-    ```
-   > Recuerda incluir la anotación _@Configuration_ a la clase. En este caso especifico _secret_ se utiliza como llave para generar y descifrar tokens.Esta puede ser
-     definida como una constante en la misma clase o bien inyectarla desde el archivo properties.
-3. A continuación creamos una clase de tipo _controller_ la cual nos ayudara a generar una solicitud de creación de un token de autenticación. En este punto
-   haremos uso de anotaciones (@Tag) de _Swagger_ para ir generando la documentación de la aplicación.
-    ```java
-   @Tag(name = "Authentication",
-        description = "Genera token de autenticación.") 
-   public class AuthenticationController {
-        
-        // Inyectar dependencias
-   
-        @PostMapping("/authenticate")
-        public ResponseEntity<?> getAuthenticationToken(@RequestBody UserDTO userDTO) {
-            UserDetails userDetails;
-            try {
-                userDetails = userDetailsService.loadUserByUsername(userDTO.getUser());
-            } catch (UsernameNotFoundException e) {
-                throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "User not found");
+}
+```
+Crear clase Rectangulo con un método draw público que reciba 4 variables
+    x : Coordenada X de la esquina superior izquierda
+    y : Coordenada Y de la esquina superior izquierda
+    width: ancho del rectángulo
+    height : alto del rectángulo.
+
+La función draw deberá imprima en consola el mensaje 
+
+    "Rectángulo con coordenada esquina inferior izquierda en el punto (x,y), ancho: width, alto: heigth"
+
+```java
+class Rectangle {
+    public void draw(int x, int y, int width, int height) {
+        System.out.println("Rectángulo con coordenada inferior superior izquierda en el punto (" + x + "," + y + "), ancho: " + width + ", alto: " + height);
+    }
+}
+```
+
+Crear clase Demo para probar la funcionalidad.
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+        Object[] shapes = {new Line(), new Rectangle()};
+        int x1 = 10, y1 = 20;
+        int x2 = 30, y2 = 60;
+        int width = 40, height = 40;
+        for (Object shape : shapes) {
+            if (shape.getClass().getSimpleName().equals(Line.class.getSimpleName())) {
+                ((Line)shape).draw(x1, y1, x2, y2);
+            } else if (shape.getClass().getSimpleName().equals(Rectangle.class.getSimpleName())) {
+                ((Rectangle)shape).draw(x2, y2, width, height);
             }
-            Claims claims = Jwts.claims().setSubject(userDTO.getUser());
-            claims.put("username", userDTO.getUser());
-            String authorities = userDetails.getAuthorities().stream()
-                .map(GrantedAuthority::getAuthority)
-                .collect(Collectors.joining(","));
-            claims.put("authorities", authorities);
-            claims.put("date", new Date());
-
-            String token = jwtTokenConfig.generateToken(userDTO, claims);
-            return ResponseEntity.ok(token);
-        }
-   }
-    ```
-
-4. Lo siguiente sera generar un filtro que se ejecutara en cada request, la función de este filtro sera .
-   obtener el token enviado por el usuario durante un request. 
-   ```java
-       @Component
-       public class JwtTokenFilter extends OncePerRequestFilter {
-
-       @Autowired
-       private JwtTokenConfig jwtTokenConfig;
-
-       @Value("${jwt.secret}")
-       private String secret;
-
-       private final String HEADER = "Authorization";
-
-       @Override
-       protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
-               throws ServletException, IOException {
-
-           if(jwtExists(request)) {
-               String token = getAccessToken(request);
-
-               if (jwtTokenConfig.validateAccessToken(token)) {
-                   Claims claims = validateToken(token);
-                   setUpSpringAuthentication(claims);
-               }
-           }
-           filterChain.doFilter(request, response);
-       }
-
-       /**
-        * Obtiene el token de acceso desde el header del request.
-        * @param request Petición del usuario, debe incluir header Authorization.
-        * @return Regresa únicamente el token, sin la palabra Bearer
-        */
-       private String getAccessToken(HttpServletRequest request) {
-           String header = request.getHeader(HEADER);
-           String token = header.split(" ")[1].trim();
-           return token;
-       }
-
-       /**
-        * Válida el token ingresado en el request.
-        * @param token token ingresado en el header del request.
-        * @return Regresa si el token es válido o no.
-        */
-       private Claims validateToken(String token) {
-           return Jwts.parser().setSigningKey(secret).parseClaimsJws(token).getBody();
-       }
-
-       /**
-        * Válida si se ha ingresado un token en el header del request.
-        * @param request Petición por parte del usuario.
-        * @return Regresa si hay un token.
-        */
-       private boolean jwtExists(HttpServletRequest request) {
-           String authenticationHeader = request.getHeader(HEADER);
-           if (authenticationHeader == null)
-               return false;
-           return true;
-       }
-
-       /**
-        * Genera la autenticación del usuario y agrega sus roles.
-        * @param claims Información adicional del usuario (roles).
-        */
-       private void setUpSpringAuthentication(Claims claims) {
-           List<GrantedAuthority> grantedAuthorities = AuthorityUtils
-                   .commaSeparatedStringToAuthorityList(claims.get("authorities").toString());
-
-           UsernamePasswordAuthenticationToken auth = new UsernamePasswordAuthenticationToken(claims.getSubject(), null,
-                   grantedAuthorities);
-           SecurityContextHolder.getContext().setAuthentication(auth);
-
-       }
-   }
-   ```
-    > El token se envia en el _header_ del request. Si el request se hace desde _Postman_ es necesario anteponer la palabra Bearer seguidade un 
-      de un espacio en blanco antes del token. Si el request se hace desde Swagger solo se introduce el token.
-    
-    > Ejemplo de request desde _postman_: curl --location --request GET 'http://localhost:8080/api/getAccountByUser?user=user1@wizeline.com' \
---header 'Authorization: Bearer token.
-
-5. Crear clase de configuración donde se definen que recursos estarán segurizados y cuáles no, en este ejercicio la clase
-    también nos sirve para generar usuarios y sus roles en memoria que nos ayudaran a simular escenarios de recursos con seguridad.
-    ``` java
-    @Configuration
-    @EnableWebSecurity
-    @EnableGlobalMethodSecurity(prePostEnabled = true)
-    public class SecurityConfig {
-        // Inyectar dependencias
-        
-        /**
-        * Configuración de la seguridad del servicio.
-        * @param httpSecurity
-        * @return
-        * @throws Exception
-        */
-        @Bean
-        public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-           return httpSecurity.cors().and().csrf().disable()
-                .authorizeRequests().antMatchers(whiteList).permitAll()
-                .anyRequest().authenticated().and()
-                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .httpBasic(Customizer.withDefaults())
-                .addFilterBefore(jwtTokenFilter, UsernamePasswordAuthenticationFilter.class)
-                .build();
-        }
-        
-        /**
-        * Este Bean genera los usuarios que pueden hacer uso del servicio.
-        * @return Regresa y habilita los usuarios asi como su información (user, password, rol).
-        */
-        @Bean
-        public InMemoryUserDetailsManager inMemoryUserDetailsManager(){
-           List<UserDetails> userDetailsList = new ArrayList<>();
-           userDetailsList.add(User.withUsername("user").password("password")
-                .roles("USER").build());
-           userDetailsList.add(User.withUsername("admin").password("password")
-                .roles("ADMIN", "USER").build());
-           userDetailsList.add(User.withUsername("guest").password("password")
-                .roles("GUEST").build());
-
-           return new InMemoryUserDetailsManager(userDetailsList);
         }
     }
-    ```
-   > En esta clase existe una variable llamada whiteList, es un arreglo que contiene la lista de _endpoints_ que no tienen seguridad.
-     Esta variable se puede inicializar en la clase misma o bien en el archivo properties.
+}
+```
 
-6. Ahora definamos que _endpoints_ estarán disponibles para usuarios autenticados.
-   ``` java
-   public class BankingAccountController {
-     
-     @PreAuthorize("hasRole('USER')")
-     @GetMapping(value = "/getAccountByUser", produces = MediaType.APPLICATION_JSON_VALUE)
-     public ResponseEntity<List<BankAccountDTO>> getAccountByUser(@RequestParam String user) {
-        // Implementación
-     }
-     
-     @PreAuthorize("hasRole('ADMIN')")
-     @GetMapping(value = "/getAccountsGroupByType")
-     public ResponseEntity<Map<String, List<BankAccountDTO>>> getAccountsGroupByType() throws JsonProcessingException {
-        // Implementación
-     }
-   
-     @PreAuthorize("hasRole('GUEST')")
-     @GetMapping("/sayHello")
-     public ResponseEntity<String> sayHelloGuest() {
-        return new ResponseEntity<>("Hola invitado!!", HttpStatus.OK);
-     }
-   }
-   ```
-   > El _endpoint_ sayHelloGuest() es nuevo, se agrega con fines demostrativos.
+La salida en la consola deberá ser la siguiente:
 
-7. Para manejar la exception _AccessDeniedException_ lanzada en la validación del token vamos agregar una clase anotada 
-   como _ControllerAdvice_.
-   ``` java
-    @ControllerAdvice
-    public class ExceptionHandlerAdvice {
-    
-        @ExceptionHandler(AccessDeniedException.class)
-        public ResponseEntity<String> handleAccessDeniedException(AccessDeniedException e) {
-            return new ResponseEntity<>("Acceso denegado", HttpStatus.FORBIDDEN);
+![output_before_adapater_demo.png](images%2Foutput_before_adapater_demo.png)
+
+Ahora implementemos el patrón adapter.
+
+Primero creemos una interface Shape que reciba 4 parámetros enteros que coinciden con la función draw de nuestras clase Line y Rectangle.
+
+```java
+interface Shape {
+    void draw(int x, int y, int z, int j);
+}
+```
+
+Crearemos el Adaptador para nuestra clase Linea
+
+```java
+class LineAdapter implements Shape {
+    private Line adaptee;
+
+    public LineAdapter(Line line) {
+        this.adaptee = line;
+    }
+
+    @Override
+    public void draw(int x1, int y1, int x2, int y2) {
+        adaptee.draw(x1, y1, x2, y2);
+    }
+}
+```
+
+Crearemos el también el Adaptador para nuestra clase Rectangle
+
+```java
+class RectangleAdapter implements Shape {
+    private Rectangle adaptee;
+
+    public RectangleAdapter(Rectangle rectangle) {
+        this.adaptee = rectangle;
+    }
+
+    @Override
+    public void draw(int x1, int y1, int x2, int y2) {
+        int x = Math.min(x1, x2);
+        int y = Math.min(y1, y2);
+        int width = Math.abs(x2 - x1);
+        int height = Math.abs(y2 - y1);
+        adaptee.draw(x, y, width, height);
+    }
+}
+```
+Finalmente creamos el Demo para probar la funcionalidad con los adaptadores.
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+        Shape[] shapes = {new RectangleAdapter(new Rectangle()),
+                new LineAdapter(new Line())};
+        int x1 = 10, y1 = 20;
+        int x2 = 30, y2 = 60;
+        for (Shape shape : shapes) {
+            shape.draw(x1, y1, x2, y2);
         }
+    }
+}
+```
+![output_after_adapter_demo.png](images%2Foutput_after_adapter_demo.png)
+
+# Challenge:
+
+Intenta crear una nueva clase Circulo, que reciba  3 parámetros enteros x, y, y radio, e imprima el siguiente mensaje:
+
+"Circulo con coordenada central en el punto (x,y), y radio: radio"
+
+La salida esperada en la consola sería:
+
+![output_after_adapter_challenge.png](images%2Foutput_after_adapter_challenge.png)
+
+# :pencil: Patrón Bridge
+
+Crear interfaz DrawAPI.
+
+```java
+public interface DrawAPI {
+    public void drawCircle(int radius, int x, int y);
+}
+```
+
+Crear clases concretas que implmenten la interfaz DrawAPI
+
+RedCircle:
+
+```java
+public class RedCircle implements DrawAPI {
+    @Override
+    public void drawCircle(int radius, int x, int y) {
+        System.out.println("Drawing Circle[ color: red, radius: " + radius + ", x: " + x + ", " + y + "]");
+    }
+}
+```
+
+GreenCircle:
+
+```java
+public class GreenCircle implements DrawAPI {
+    @Override
+    public void drawCircle(int radius, int x, int y) {
+        System.out.println("Drawing Circle[ color: green, radius: " + radius + ", x: " + x + ", " + y + "]");
+    }
+}
+```
+
+Crear la clase abstracta Shape que usa la interfaz DrawAPI:
+
+```java
+public abstract class Shape {
+    protected DrawAPI drawAPI;
+
+    protected Shape(DrawAPI drawAPI){
+        this.drawAPI = drawAPI;
+    }
+    public abstract void draw();
+}
+```
+Crear la clase concreta implementando la interfaz Shape:
+
+```java
+public class Circle extends Shape {
+    private int x, y, radius;
+
+    public Circle(int x, int y, int radius, DrawAPI drawAPI) {
+        super(drawAPI);
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+    }
+
+    public void draw() {
+        drawAPI.drawCircle(radius,x,y);
+    }
+}
+```
+
+Crear la clase abstracta Shape que usa la interfaz DrawAPI:
+
+```java
+public abstract class Shape {
+    protected DrawAPI drawAPI;
+
+    protected Shape(DrawAPI drawAPI){
+        this.drawAPI = drawAPI;
+    }
+    public abstract void draw();
+}
+```
+
+Finalmente creamos el Demo para probar la funcionalidad.
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+        Shape[] shapes = {new Circle(100,100, 10, new RedCircle()),
+                new Circle(100,100, 10, new GreenCircle())
+        };
+        for (Shape shape: shapes) {
+            shape.draw();
+        }
+    }
+}
+```
+![output_bridge_demo.png](images%2Foutput_bridge_demo.png)
+
+# Challenge:
+
+Extender la implementación para imprimir el siguiente output.
+
+![output_bridge_challenge.png](images%2Foutput_bridge_challenge.png)
+
+# :pencil: Patrón Composite
+
+Crear clase de Employee con una lista de objetos Employee
+
+```java
+public class Employee {
+    private String name;
+    private String dept;
+    private int salary;
+    private List<Employee> subordinates;
     
+    public Employee(String name,String dept, int sal) {
+        this.name = name;
+        this.dept = dept;
+        this.salary = sal;
+        subordinates = new ArrayList<Employee>();
     }
-   ```
-   > La anotación @ControllerAdvice nos permite manejar exceptions en toda la aplicación.
 
-8. Como se mencionó al inicio se agregó la dependencia de _Swagger_ para documentar nuestra aplicación y poder realizar 
-   pruebas de una forma más fácil. El resultado será similar a lo siguiente:
-   ![img.png](images/swagger.png)
-   > Como se puede observar, el _Swagger_ de nuestra aplicación estará accesible desde http://localhost:8080/swagger-ui/index.html.
-   > Para lograr lo anterior es necesario lo siguiente.
-   
-    Generar una clase de configuración donde incluiremos la información que se mostrara. Algunos valores se obtienen del archivo _properties_. 
-   ``` java
-      @Configuration
-      @OpenAPIDefinition(
-        info = @Info(title = "${info.app.name}", version = "${info.app.java.version}",
-        contact = @Contact(name = "Developer", email = "developer@wizeline.com",
-         url = "https://www.wizeline.com/")),
-         servers = {
-           @Server(url = "http://localhost:8080", description = "Development"),
-         })
-      public class OpenAPIConfiguration {
-
-      private final String SECURITY_SCHEME_NAME = "JWT Token";
-
-      @Bean
-      public OpenAPI customizeOpenAPI() {
-        return new OpenAPI()
-                .addSecurityItem(new SecurityRequirement()
-                        .addList(SECURITY_SCHEME_NAME))
-                .components(new Components()
-                        .addSecuritySchemes(SECURITY_SCHEME_NAME, new SecurityScheme()
-                                .name(SECURITY_SCHEME_NAME)
-                                .type(SecurityScheme.Type.HTTP)
-                                .scheme("bearer")
-                                .description(
-                                        "Inserta el token generado. Se obtiene en el apartado de autenticación.")
-                                .bearerFormat("JWT")));
-
-       }
+    public void add(Employee e) {
+        subordinates.add(e);
     }
-   ```
 
-9. El archivo _properties_ puede lucir similar al siguiente.
-   ![img.png](images/properties.png)
+    public void remove(Employee e) {
+        subordinates.remove(e);
+    }
+
+    public List<Employee> getSubordinates(){
+        return subordinates;
+    }
+
+    public String toString(){
+        return ("Empleado :[ Nombre : " + name + ", departamento : " + dept + ", salario :" + salary+" ]");
+    }
+}
+```
+
+Utilice la clase Employee para crear e imprimir la jerarquía de empleados.
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+
+        Employee CEO = new Employee("Juan","CEO", 30000);
+
+        Employee headSales = new Employee("Roberto","Gerente de Ventas", 20000);
+
+        Employee headMarketing = new Employee("Miguel","Gerente de Mercadotecnía", 20000);
+
+        Employee clerk1 = new Employee("Laura","Mercadotecnía", 10000);
+        Employee clerk2 = new Employee("Bob","Mercadotecnía", 10000);
+
+        Employee salesExecutive1 = new Employee("Ricardo","Ventas", 10000);
+        Employee salesExecutive2 = new Employee("Rob","Ventas", 10000);
+
+        CEO.add(headSales);
+        CEO.add(headMarketing);
+
+        headSales.add(salesExecutive1);
+        headSales.add(salesExecutive2);
+
+        headMarketing.add(clerk1);
+        headMarketing.add(clerk2);
+
+        //Imprimir todos los empleados de la organización
+        System.out.println(CEO);
+
+        for (Employee headEmployee : CEO.getSubordinates()) {
+            System.out.println(headEmployee);
+
+            for (Employee employee : headEmployee.getSubordinates()) {
+                System.out.println(employee);
+            }
+        }
+    }
+}
+```
+![output_composite_demo.png](images%2Foutput_composite_demo.png)
+
+# :pencil: Patrón Decorator
+
+Crear la interfaz Shape
+
+```java
+public interface Shape {
+   void draw();
+}
+```
+
+Crear la clase Rectanlge
+
+```java
+public class Rectangle implements Shape {
+
+   @Override
+   public void draw() {
+      System.out.println("Shape: Rectangle");
+   }
+}
+```
+
+Crear la clase Circle
+
+```java
+public class Circle implements Shape {
+
+   @Override
+   public void draw() {
+      System.out.println("Shape: Circle");
+   }
+}
+```
+
+Crear la clase abstracta ShapeDecorator que implementa interfaz Shape
+
+```java
+public abstract class ShapeDecorator implements Shape {
+   protected Shape decoratedShape;
+
+   public ShapeDecorator(Shape decoratedShape){
+      this.decoratedShape = decoratedShape;
+   }
+
+   public void draw(){
+      decoratedShape.draw();
+   }	
+}
+```
+
+Finalmente creamos el Demo para probar la funcionalidad.
+
+```java
+public class Demo {
+public static void main(String[] args) {
+Shape[] shapes = {new Circle(),  new RedShapeDecorator(new Circle()), new RedShapeDecorator(new Rectangle())};
+
+        for (Shape shape: shapes) {
+            shape.draw();
+            System.out.print("\n");
+        }
+    }
+}
+```
+![output_decorator_demo.png](images%2Foutput_decorator_demo.png)
+
+# Challenge:
+
+Extender la implementación para imprimir el siguiente output.
+
+![output_decorator_challenge.png](images%2Foutput_decorator_challenge.png)
+
+# :pencil: Patrón Facade
+
+Crear la interfa Shape
+
+```java
+ public interface Shape {
+    void draw();
+}
+```
+Crear clases concretas que implementan la interfaz
+
+Rectangle.java
+```java
+ public class Rectangle implements Shape {
+
+    @Override
+    public void draw() {
+        System.out.println("Rectangle::draw()");
+    }
+}
+```
+Square.java
+```java
+ public class Square implements Shape {
+
+    @Override
+    public void draw() {
+        System.out.println("Square::draw()");
+    }
+}
+```
+Circle.java
+```java
+ public class Circle implements Shape {
+
+    @Override
+    public void draw() {
+        System.out.println("Circle::draw()");
+    }
+}
+```
+
+Creamos la clase Facade ShapeMaker.java
+```java
+ public class ShapeMaker {
+    private Shape circle;
+    private Shape rectangle;
+    private Shape square;
+
+    public ShapeMaker() {
+        circle = new Circle();
+        rectangle = new Rectangle();
+        square = new Square();
+    }
+
+    public void drawCircle(){
+        circle.draw();
+    }
+    public void drawRectangle(){
+        rectangle.draw();
+    }
+    public void drawSquare(){
+        square.draw();
+    }
+}
+```
+Finalmente creamos el Demo para probar la funcionalidad.
+
+```java
+ public class Demo {
+    public static void main(String[] args) {
+        ShapeMaker shapeMaker = new ShapeMaker();
+
+        shapeMaker.drawCircle();
+        shapeMaker.drawRectangle();
+        shapeMaker.drawSquare();
+    }
+}
+```
+La salida esperada es:
+![output_facade_demo.png](images%2Foutput_facade_demo.png)
 
 
-10. A continuación se muestra el resultado de la implementación.
+# :pencil: Patrón Flyweight
 
-### En Postman
-#### :computer: Request
-![img.png](images/postman_tkn_guest.png)
 
-#### :white_check_mark: 200 Response
-![img.png](images/postman_guest_200.png)
+Crear la interfa Shape
 
-#### :x: 403 Response
-![img.png](images/postman_guest_403.png)
+```java
+public interface Shape {
+    void draw();
+}
+```
 
-### Swagger
-#### :computer: Request
-![img.png](images/swagger_tkn_guest.png)
+Creamos una clase concreta que implemente la interfz Shape
+```java
+ public class Circle implements Shape {
+    private String color;
+    private int x;
+    private int y;
+    private int radius;
 
-#### :white_check_mark: 200 Response
-![img.png](images/swagger_guest_200.png)
+    public Circle(String color){
+        this.color = color;
+    }
 
-#### :x: 403 Response
-![img.png](images/swagger_guest_403.png)
+    public void setX(int x) {
+        this.x = x;
+    }
 
-> **can't parse JSON.  Raw result:** Puede ser solucionado implementando el médodo writeValueAsString()
-Algo asi: _Json.mapper().writeValueAsString(response)_
- 
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Circle: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", radius :" + radius);
+    }
+}
+```
+
+Cree una fábrica para generar objetos Circle en función de la información proporcionada.
+```java
+ import java.util.HashMap;
+
+public class ShapeFactory {
+    
+    private static final HashMap circleMap = new HashMap();
+
+    public static Shape getCircle(String color) {
+        Circle circle = (Circle)circleMap.get(color);
+
+        if(circle == null) {
+            circle = new Circle(color);
+            circleMap.put(color, circle);
+            System.out.println("Creating circle of color : " + color);
+        }
+        return circle;
+    }
+}
+```
+Finalmente creamos el Demo para probar la funcionalidad.
+```java
+public class Demo {
+    private static final String colors[] = { "Red", "Green", "Blue", "Red", "Black","White", "Black", "Blue", "Green",
+            "Black","Red", "Green", "Black", "White", "Black","Red", "Green", "Blue", "White", "Black" };
+
+    public static void main(String[] args) {
+
+        for (String color: colors) {
+            Circle circle = (Circle)ShapeFactory.getCircle(color);
+            circle.setX(getRandomX());
+            circle.setY(getRandomY());
+            circle.setRadius(100);
+            circle.draw();
+        }
+    }
+    private static int getRandomX() {
+        return (int)(Math.random()*100 );
+    }
+    private static int getRandomY() {
+        return (int)(Math.random()*100);
+    }
+}
+```
+
+![output_flyweight_demo.png](images%2Foutput_flyweight_demo.png)
+
+# :pencil: Patrón Proxy
+
+Crear la interfaz Image
+```java
+public interface Image {
+    void display();
+}
+```
+Crear las imagenes concretas:
+
+RealImage
+```java
+ public class RealImage implements Image {
+
+    private String fileName;
+
+    public RealImage(String fileName){
+        this.fileName = fileName;
+        loadFromDisk(fileName);
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Displaying " + fileName);
+    }
+
+    private void loadFromDisk(String fileName){
+        System.out.println("Loading " + fileName);
+    }
+}
+```
+ProxyImage
+```java
+ public class ProxyImage implements Image{
+
+    private RealImage realImage;
+    private String fileName;
+
+    public ProxyImage(String fileName){
+        this.fileName = fileName;
+    }
+
+    @Override
+    public void display() {
+        if(realImage == null){
+            realImage = new RealImage(fileName);
+        }
+        realImage.display();
+    }
+}
+```
+
+Finalmente creamos el Demo para probar la funcionalidad.
+```java
+ public class Demo {
+
+    public static void main(String[] args) {
+        Image image = new ProxyImage("test_10mb.jpg");
+
+        //La imagen será cargada desde el disco.
+        image.display();
+        System.out.println("");
+
+        //La imagen no será cargada desde el disco.
+        image.display();
+    }
+}
+```
+![output_proxy_demo.png](images%2Foutput_proxy_demo.png)
