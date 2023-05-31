@@ -228,19 +228,6 @@ public class Circle extends Shape {
 }
 ```
 
-Crear la clase abstracta Shape que usa la interfaz DrawAPI:
-
-```java
-public abstract class Shape {
-    protected DrawAPI drawAPI;
-
-    protected Shape(DrawAPI drawAPI){
-        this.drawAPI = drawAPI;
-    }
-    public abstract void draw();
-}
-```
-
 Finalmente creamos el Demo para probar la funcionalidad.
 
 ```java
