@@ -55,7 +55,7 @@ Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contem
 | Captura de pantalla del bucket de S3                                                                                                | 15          |
 | Captura de pantalla de lambda creada                                                                                                | 15          |
 | Captura de pantalla aplicando el Aggregation Framework  (5 ejercicios)                                                              | 20          |
-| Captura de pantalla del GUI Client                                                                                                  | 10          |
+| Captura de pantalla del GUI Client (query base de datos sakila)                                                                                                  | 10          |
 | Captura de pantalla de la base de datos replicada                                                                                   | 10          |
 | Captura de pantalla aplicando un query avanzado con su usuario agregado a Mongo Atlas (cluster compartido)                          | 10          |
 | **Total**                                                                                                                           | **200**     |
