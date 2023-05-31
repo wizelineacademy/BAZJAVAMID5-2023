@@ -1,5 +1,3 @@
-# Tipos de Datos
-
 # Requisitos
 
 - Java 11 o superior
