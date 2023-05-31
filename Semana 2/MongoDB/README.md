@@ -45,18 +45,6 @@ Comandos
    * Insertar multiples documentos
 ``` db.proyectos.insertMany([ { nombre: "Proyecto multiple", responsables: ["CTO", "TL"], tipo: "multiple" }, { nombre: "Proyecto cancelado" }]) ```
 
-* Datos de ejemplo
-
-Sakila es un esquema de ejemplo de MySQL que se publicó hace algunos años.  Se basa en un sistema de alquiler de DVD.
-En este repositorio se agregaron los datos publicados en esa base de datos
-Para importar estos datos se pueden utilizar los siguientes comandos:
-   * ```docker cp sakila/customers.json mongodb:/tmp/customers.json```
-   * ```docker cp sakila/films.json mongodb:/tmp/films.json```
-   * ```docker cp sakila/stores.json mongodb:/tmp/stores.json```
-   * ```docker exec mongodb mongoimport -d sakila -c customers --file /tmp/customers.json```
-   * ```docker exec mongodb mongoimport -d sakila -c films --file /tmp/films.json```
-   * ```docker exec mongodb mongoimport -d sakila -c stores --file /tmp/stores.json```
-
 ### Operaciones CRUD
 Referencia: [Operaciones CRUD](https://platzi.com/contributions/operaciones-crud-en-mongodb/)
 * Consultar documentos
@@ -225,7 +213,7 @@ La siguiente pipeline contiene tres etapas para ordenar los documentos agrupados
 Por lo tanto, puede usar el aggregation pipeline para obtener los documentos requeridos de la colección.
 
 
-## Ejercicio de Aggregation Pipeline
+### Ejercicio de Aggregation Pipeline
 
 Tomando como base el archivo `aggregation_excercise.json` e importandolo y creando la colección de `Movies` dentro de la base de datos, contesta lo siguiente:
 
@@ -236,6 +224,84 @@ Tomando como base el archivo `aggregation_excercise.json` e importandolo y crean
 4. ¿Cuantas peliculas protagonizo Tom Hanks?
 5. Muestra la lista de todos los actores que trabajaron con el director Jon What.
 ```
+
+### Schema Validation
+Creación de una colección de Usuarios, agregando un `schema validation`
+```js
+db.createCollection( "users" , { 
+   validator: { $jsonSchema: { 
+      bsonType: "object", 
+      required: [ "name", "surname", "email" ], 
+      properties: { 
+         name: { 
+            bsonType: "string", 
+            description: "required and must be a string" }, 
+         surname: { 
+            bsonType: "string", 
+            description: "required and must be a string" }, 
+         email: { 
+            bsonType: "string", 
+            pattern: "^.+\@.+$", 
+            description: "required and must be a valid email address" }, 
+         year_of_birth: { 
+            bsonType: "int", 
+            minimum: 1900, 
+            maximum: 2018,
+            description: "the value must be in the range 1900-2018" }, 
+         gender: { 
+            enum: [ "M", "F" ], 
+            description: "can be only M or F" } 
+      }
+   }
+}})
+```
+Agregar una validación de schema a una colección previamente creada
+```js
+db.runCommand( { collMod: "Contacts", 
+   validator: { 
+      $jsonSchema : { 
+         bsonType: "object", 
+         required: [ "name", "phone", "email", "gender" ], 
+         properties: { 
+            name: { 
+               bsonType: "string", 
+               description: "required and must be a string" }, 
+            phone: { 
+               bsonType: "string", 
+               description: "required and must be a string" }, 
+           email: { 
+               bsonType: "string", 
+               pattern: "^.+\@.+$", 
+               description: "required and must be a valid email address" }, 
+           gender: { 
+               enum: [ "M", "F", "T" ], 
+               description: "required and must be M, F, T" } 
+          }
+       }
+}, 
+validationLevel: "moderate", 
+validationAction: "warn" 
+})
+```
+
+Las dos nuevas opciones `validationLevel` y `validationAction` son importantes en este caso.
+
+**ValidationLevel** puede tener los siguientes valores:
+
+- `off` : no se aplica la validación
+- `strict`: es el valor por defecto. La validación se aplica a todas las inserciones y actualizaciones
+- `moderado`: la validación se aplica a todos los documentos válidos existentes. Los documentos no válidos se ignoran.
+
+Al crear reglas de validación en colecciones existentes, el valor "moderado" es la opción más segura.
+
+**ValidationAction** puede tener los siguientes valores:
+
+- `error`: es el valor por defecto. El documento debe pasar la validación para ser escrito 
+- `warn`: se escribe un documento que no pasa la validación pero se registra un mensaje de advertencia
+
+Al agregar reglas de validación a una colección existente, la opción más segura es "advertir"
+
+Estas dos opciones se pueden aplicar incluso con `createCollection`. No los usamos porque los valores predeterminados son buenos en la mayoría de los casos.
 
 ### Modelos y esquemas
 Referencia: [MongoDB Arquitectura y modelo de datos](https://sitiobigdata.com/2017/12/27/mongodb-arquitectura-y-modelo-de-datos/#:~:text=Modelo%20de%20datos%20MongoDB)
