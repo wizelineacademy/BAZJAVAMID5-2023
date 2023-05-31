@@ -24,8 +24,8 @@ Se deberá enviar cada entrega en las fechas indicadas en la siguiente sección 
 
 # Entregables
 ## Fechas de Entrega
- - Entregable 1: lunes 5 de junio - 6:00pm
- - Entregable 2: lunes 19 de junio - 6:00pm
+ - Entregable 1: lunes 5 de junio - 2:00pm
+ - Entregable 2: lunes 19 de junio - 2:00pm
 
 ## Entregable 1
 
