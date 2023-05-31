@@ -41,17 +41,17 @@ Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contem
 
 | **Tópico**                                                                                                                          | **Puntaje** |
 |-------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Screenshots para el flujo de creación de ramas: `git branch`, `git checkout`, `git switch`                                          | 10          |
-| Screenshots para el flujo de unión de ramas: `git merge`                                                                            | 10          |
-| Screenshots para el flujo de almacenamiento de ramas: `git stash`                                                                   | 10          |
-| Screenshot de la imagen interactiva de Docker                                                                                       | 10          |
-| Screenshot de la creación del volumen de mysql de Docker                                                                            | 15          |
-| Screenshot de la creación de una red tipo bridge con 2 contenedores dentro de esa misma red (ej. Thor y Spider-man)                 | 10          |
-| Screenshot del deployment en k8s (kubernetes)                                                                                       | 15          |
-| Screenshot de la creación de un topico con factor de replicacion de 5                                                               | 10          |
-| Screenshot de la creación de otro broker de kafka                                                                                   | 10          |
-| Screenshot de la creación de un cluster de 3 brokers (3 brokers corriendo)                                                          | 10          |
-| Screenshot de envio y recepción de mensajes entre productor y consumidor                                                            | 10          |
+| Capturas de pantalla para el flujo de creación de ramas: `git branch`, `git checkout`, `git switch`                                 | 10          |
+| Capturas de pantalla para el flujo de unión de ramas: `git merge`                                                                   | 10          |
+| Capturas de pantalla para el flujo de almacenamiento de ramas: `git stash`                                                          | 10          |
+| Captura de pantalla de la imagen interactiva de Docker                                                                              | 10          |
+| Captura de pantalla de la creación del volumen de mysql de Docker                                                                   | 15          |
+| Captura de pantalla de la creación de una red tipo bridge con 2 contenedores dentro de esa misma red (ej. Thor y Spider-man)        | 10          |
+| Captura de pantalla del despliegue en Kubernetes                                                                                    | 15          |
+| Captura de pantalla de la creación de un topico con factor de replicacion de 5                                                      | 10          |
+| Captura de pantalla de la creación de otro broker de Kafka                                                                          | 10          |
+| Captura de pantalla de la creación de un cluster de 3 brokers (3 brokers corriendo)                                                 | 10          |
+| Captura de pantalla de envio y recepción de mensajes entre productor y consumidor                                                   | 10          |
 | Captura de pantalla del bucket de S3                                                                                                | 15          |
 | Captura de pantalla de lambda creada                                                                                                | 15          |
 | Captura de pantalla aplicando el Aggregation Framework  (5 ejercicios)                                                              | 20          |
@@ -91,7 +91,7 @@ Para poder considerar completadas las semanas 3 y 4 de entrenamiento debe contem
 | Uso de por lo menos un patrón de diseño del primer bloque (Adapter, Bridge o Composite)     | 30          |
 | Uso de por lo menos un patrón de diseño del segundo bloque (Decorator, Facade o Flyweight)  | 30          |
 | Uso de por lo menos un patrón de diseño del tercer bloque (Gateway/Proxy, Sagas)            | 30          |
-| Uso de por lo menos un patrón de diseño de arquitectura (MVC, MVVM)                         | 15          |
-| Uso de por lo menos un patrón de diseño de microservicios (Service Template, Chassis)       | 15          |
+| Uso de por lo menos un patrón de diseño de arquitectura (MVC, MVVM)                         | 20          |
+| Uso de por lo menos un patrón de diseño de microservicios (Service Template, Chassis)       | 20          |
 | **Total**                                                                                   | **350**     |
 | **Mínimo aprobatorio**                                                                      | **280**     |
