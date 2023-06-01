@@ -14,7 +14,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabación Lunes 29 Mayo](https://drive.google.com/file/d/1JkAJbfZ_1J2W-_aoPi_n-lT7qzQO2gkS/view?usp=sharing)
 - [Martes 30 Mayo - MongoDB](https://drive.google.com/file/d/1ZefLbABVIYMVhP8LqyhlQIwKZ0moPPIm/view?usp=sharing)
 - 📺 [Grabación Martes 30 Mayo ](https://drive.google.com/file/d/1Q_M--x1Vs9VFwzR44wLYvwHZwJzcEEJT/view?usp=sharing)
-- 📺 [Grabación Miércoles 31 Mayo]()
+- 📺 [Grabación Miércoles 31 Mayo](https://drive.google.com/file/d/1tocTFt8eJaKbqfIqkiW59PQW-Fn-wA6q/view?usp=sharing)
 
 # Semana 3
 - [Lunes 5 Junio - Java]()
