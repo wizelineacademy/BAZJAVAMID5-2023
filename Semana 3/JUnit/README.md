@@ -41,6 +41,7 @@ docker exec jenkins_container cat /var/jenkins_home/secrets/initialAdminPassword
 - Una vez abierto jenkins instalar los plugins Git, SonarQube Scanner, Pipeline (Manage Jenkins > plugins)
 - Reiniciar Jenkins (detener y volver a iniciar el contenedor de docker)
 - Agregar credencial “SONAR_TOKEN” (Manage Jenkins > credential)
+- Configurar el plugin de SonarQube (Manage Jenkins > System). Buscar una sección llamada SonarQube servers, dar click en "Add SonarQube", en name colocar "SonarCloud", server Url https://sonarcloud.io, y finalmente en server authentication token seleccionar "SONAR_TOKEN" (la credencial del paso anterior)
 
 ## Crear el pipeline
 
