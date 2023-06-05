@@ -18,7 +18,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabación - Clase de Kubernetes](https://drive.google.com/file/d/1Tx2Y6NwpFNpZeRxBwvqAsNmUhb6ECqlg/view?usp=sharing)
 
 # Semana 3
-- [Lunes 5 Junio - Java]()
+- [Lunes 5 Junio - Java](https://drive.google.com/file/d/1jI3mpHALO5qltIsa6f0D5kbxtCOwVouq/view?usp=sharing)
 - 📺 [Grabación Lunes 25 Junio]()
 - [Martes 6 Junio - Spring Boot]()
 - 📺 [Grabación Martes 6 Junio ]()
