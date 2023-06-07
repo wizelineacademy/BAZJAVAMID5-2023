@@ -21,7 +21,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Lunes 5 Junio - Java](https://drive.google.com/file/d/1aHCAmjgnnIfCLmHuYFcx6KmpXRKYzid8/view?usp=sharing)
 - 📺 [Grabación Lunes 5 Junio](https://drive.google.com/file/d/1qgSDDJfZWw0d6YreFmBGNPgblKYd6jcd/view?usp=sharing)
 - [Martes 6 Junio - Spring Boot](https://drive.google.com/file/d/1G6LY7gs1Byn9cOlxNTxHUdHsV0-alsSC/view?usp=sharing)
-- 📺 [Grabación Martes 6 Junio ]()
+- 📺 [Grabación Martes 6 Junio ](https://drive.google.com/file/d/1CDxSE4M7USykZuNaFuzXUeH2BnhRaACU/view?usp=sharing)
 - [Miércoles 7 Junio - JUNIT](https://drive.google.com/file/d/14_ARadYskHU9y2HrqyGDoTVAqCcNTYn5/view?usp=sharing)
 - 📺 [Grabación Miércoles 7 Junio]()
 
