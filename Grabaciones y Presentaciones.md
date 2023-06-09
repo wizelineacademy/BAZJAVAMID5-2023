@@ -23,7 +23,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 6 Junio - Spring Boot](https://drive.google.com/file/d/1G6LY7gs1Byn9cOlxNTxHUdHsV0-alsSC/view?usp=sharing)
 - 📺 [Grabación Martes 6 Junio ](https://drive.google.com/file/d/1aqEAba6SGmJcHEQLfmto9M_1_3xOk5ZI/view?usp=sharing)
 - [Miércoles 7 Junio - JUNIT](https://drive.google.com/file/d/1uKssH_qPMreBR76o6OzInogbUBYvtgKQ/view?usp=sharing)
-- 📺 [Grabación Miércoles 7 Junio]()
+- 📺 [Grabación Miércoles 7 Junio](https://drive.google.com/file/d/1o98h4mEjiKHL8xwHHQYZdsAniHlLaXbC/view?usp=sharing)
 
 # Semana 4
 - [Lunes 12 Junio -  Clean Code (usando Java con Spring Boot) Parte 1]()
