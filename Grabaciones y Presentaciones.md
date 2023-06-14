@@ -28,5 +28,5 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 # Semana 4
 - [Lunes 12 Junio -  Clean Code (usando Java con Spring Boot)](https://drive.google.com/file/d/1pnoD1odWpxllybSKGT4GmbcguQINGBqC/view?usp=sharing)
 - 📺 [Grabación Lunes 12 Junio](https://drive.google.com/file/d/1QJijzBoHaSOuafJcwPaEGTrzKr0Mkral/view?usp=sharing)
-- 📺 [Grabación Martes 13 Junio ]()
+- 📺 [Grabación Martes 13 Junio](https://drive.google.com/file/d/1DpzB0lDd4auJecTySK57qlHAG1TNE-2-/view?usp=sharing)
 - 📺 [Grabación Miércoles 14 Junio]()
